@@ -1,0 +1,24 @@
+
+<html>
+{% load staticfiles %}
+    <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'PredictiveCFB/home.css' %}" />
+    </head>
+    
+    <body>
+        <h1>PredictiveCFB</h1>
+        <p>The best site for predicting college football winners</p>
+        <p>By:
+        {% if Authors %}
+            <ul>
+            {% for Author in Authors %}
+                <li>{{ Author }}</li>
+            {% endfor %}
+            </ul>
+        {% else %}
+            <p>No Authors.</p>
+        {% endif %}
+        </p>
+        <img src="{% static 'PredictiveCFB/images/python.jpg' %}" alt="Smiley face">
+    </body>
+</html>
