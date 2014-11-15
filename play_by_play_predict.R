@@ -583,10 +583,6 @@ neutral.predict <- function(teamA, teamB, runCount)
 
 predict <- function(teamA, teamB, runCount)
 {
-  teamA <- "Miami (FL)"
-  teamB <- "Florida State"
-  
-  runCount <- 10000
   
   setup <- setup.predict(teamA,teamB, runCount)
   games <- apply(FUN =game, MARGIN = 1, setup)
