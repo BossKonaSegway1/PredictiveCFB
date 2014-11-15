@@ -1,12 +1,12 @@
-neutral.complex.predict <- function(homeName, awayName, runCount){
+neutral.predict <- function(homeName, awayName, runCount){
   
-  source('C:\\Users\\mb24244\\Documents\\football anaylsis\\SoSplayed.r')
-  SoS <- records
-  offense <- read.csv(file = 'C:\\Users\\mb24244\\Documents\\football anaylsis\\offense.csv', sep=',', header=T)
-  defense <- read.csv(file = 'C:\\Users\\mb24244\\Documents\\football anaylsis\\defense.csv', sep=',', header=T)
-  records <- read.csv(file = 'C:\\Users\\mb24244\\Documents\\football anaylsis\\records.csv', sep=',', header=T)
-  box.scores <- read.csv(file = 'C:\\Users\\mb24244\\Documents\\football anaylsis\\box_data.csv', sep=',', header=T)
-
+  source('SoS_played.r')
+  SoS <- All.SoS()
+  offense <- read.csv(file = 'data\\offense.csv', sep=',', header=T)
+  defense <- read.csv(file = 'data\\defense.csv', sep=',', header=T)
+  records <- read.csv(file = 'data\\records.csv', sep=',', header=T)
+  box.scores <- read.csv(file = 'data\\box_data.csv', sep=',', header=T)
+  
   averageSoS <- sum(SoS$Adjusted.SoS)/length(SoS$Adjusted.SoS)
   
   combine <- merge(offense, defense, by="TEAM")
@@ -89,22 +89,23 @@ neutral.complex.predict <- function(homeName, awayName, runCount){
     
     oppName <- as.character(homeOpps[i,]$OPP)
     
-    OSoSoff <- 1 + 2*(SoS[SoS$TEAM == oppName,]$Adjusted.SoS - averageSoS )
-    DSoSoff <- 1 + 2*(averageSoS - SoS[SoS$TEAM == oppName,]$Adjusted.SoS)
+    SoSOff <- sqrt(SoS[SoS$TEAM == oppName,]$Adjusted.SoS / averageSoS )
+    DSoSOff <- sqrt(averageSoS / SoS[SoS$TEAM == oppName,]$Adjusted.SoS)
     
     opp <- combine[combine$TEAM == oppName,]
-    homePassOoff[i] <- OSoSoff*((homeOpps[i,]$P.YARDS.FOR)/(opp$D.P.YDS.G))
-    homePassDoff[i] <- DSoSoff*(homeOpps[i,]$P.YARDS.AGAINST)/(opp$P.YDS.G)
-    homeRunOoff[i] <- OSoSoff*(homeOpps[i,]$R.YARDS.F)/opp$D.R.YDS.G
-    homeRunDoff[i] <- DSoSoff*(homeOpps[i,]$R.YARDS.AGAINST)/opp$R.YDS.G
-    homePFoff[i] <- OSoSoff*(homeOpps[i,]$POINTS.FOR)/opp$D.PTS.G
-    homePAoff[i] <- DSoSoff*(homeOpps[i,]$POINTS.AGAINST)/opp$PTS.G
     
-    homePassOYards.Past[i] <- homeOpps[i,]$P.YARDS.FOR
+    homePassOoff[i] <- SoSOff*((homeOpps[i,]$P.YARDS.FOR)/(opp$D.P.YDS.G))
+    homePassDoff[i] <- max(0, 1 + ((homeOpps[i,]$P.YARDS.AGAINST - SoSOff*opp$P.YDS.G)/(opp$P.YDS.G)))
+    homeRunOoff[i] <- SoSOff*(homeOpps[i,]$R.YARDS.F)/opp$D.R.YDS.G
+    homeRunDoff[i] <-  max(0, 1 + ((homeOpps[i,]$R.YARDS.AGAINST - SoSOff*opp$R.YDS.G)/(opp$R.YDS.G)))
+    homePFoff[i] <- SoSOff*(homeOpps[i,]$POINTS.FOR)/opp$D.PTS.G
+    homePAoff[i] <-  max(0, 1 + ((homeOpps[i,]$POINTS.AGAINST - SoSOff*opp$PTS.G)/(opp$PTS.G)))
+    
+    homePassOYards.Past[i] <-  homeOpps[i,]$P.YARDS.FOR
     homePassDYards.Past[i] <- homeOpps[i,]$P.YARDS.AGAINST
     homeRunOYards.Past[i] <- homeOpps[i,]$R.YARDS.F
     homeRunDYards.Past[i] <- homeOpps[i,]$R.YARDS.AGAINST
-    homePF.Past[i] <- homeOpps[i,]$POINTS.FOR
+    homePF.Past[i] <-  homeOpps[i,]$POINTS.FOR
     homePA.Past[i] <- homeOpps[i,]$POINTS.AGAINST
     
     
@@ -116,21 +117,21 @@ neutral.complex.predict <- function(homeName, awayName, runCount){
     oppName <- as.character(awayOpps[i,]$OPP)
     opp <- combine[combine$TEAM == oppName,]
     
-    OSoSoff <- 1 + 2*(SoS[SoS$TEAM == oppName,]$Adjusted.SoS - averageSoS )
-    DSoSoff <- 1 + 2*(averageSoS - SoS[SoS$TEAM == oppName,]$Adjusted.SoS)
+    SoSOff <- sqrt(SoS[SoS$TEAM == oppName,]$Adjusted.SoS / averageSoS )
+    DSoSOff <- sqrt(averageSoS / SoS[SoS$TEAM == oppName,]$Adjusted.SoS)
     
-    awayPassOoff[i] <-  OSoSoff*(awayOpps[i,]$P.YARDS.FOR)/opp$D.P.YDS.G
-    awayPassDoff[i] <-  DSoSoff*(awayOpps[i,]$P.YARDS.AGAINST)/opp$P.YDS.G
-    awayRunOoff[i] <-  OSoSoff*(awayOpps[i,]$R.YARDS.F)/opp$D.R.YDS.G
-    awayRunDoff[i] <-  DSoSoff*(awayOpps[i,]$R.YARDS.AGAINST)/opp$R.YDS.G
-    awayPFoff[i] <-  OSoSoff*(awayOpps[i,]$POINTS.FOR)/opp$D.PTS.G
-    awayPAoff[i] <-  DSoSoff*(awayOpps[i,]$POINTS.AGAINST)/opp$PTS.G
+    awayPassOoff[i] <- SoSOff*((awayOpps[i,]$P.YARDS.FOR)/(opp$D.P.YDS.G))
+    awayPassDoff[i] <- max(0, 1 + ((awayOpps[i,]$P.YARDS.AGAINST - SoSOff*opp$P.YDS.G)/(opp$P.YDS.G)))
+    awayRunOoff[i] <- SoSOff*(awayOpps[i,]$R.YARDS.F)/opp$D.R.YDS.G
+    awayRunDoff[i] <-  max(0, 1 + ((awayOpps[i,]$R.YARDS.AGAINST - SoSOff*opp$R.YDS.G)/(opp$R.YDS.G)))
+    awayPFoff[i] <- SoSOff*(awayOpps[i,]$POINTS.FOR)/opp$D.PTS.G
+    awayPAoff[i] <-  max(0, 1 + ((awayOpps[i,]$POINTS.AGAINST - SoSOff*opp$PTS.G)/(opp$PTS.G)))
     
     awayPassOYards.Past[i] <- awayOpps[i,]$P.YARDS.FOR
     awayPassDYards.Past[i] <- awayOpps[i,]$P.YARDS.AGAINST
-    awayRunOYards.Past[i] <- awayOpps[i,]$R.YARDS.F
+    awayRunOYards.Past[i] <-  awayOpps[i,]$R.YARDS.F
     awayRunDYards.Past[i] <- awayOpps[i,]$R.YARDS.AGAINST
-    awayPF.Past[i] <- awayOpps[i,]$POINTS.FOR
+    awayPF.Past[i] <-  awayOpps[i,]$POINTS.FOR
     awayPA.Past[i] <- awayOpps[i,]$POINTS.AGAINST
   }
   
@@ -164,8 +165,8 @@ neutral.complex.predict <- function(homeName, awayName, runCount){
   awayPAsd <-  sd(awayPAoff)
   
   
-  homeSoSoffset <- SoS[SoS$TEAM == as.character(home$TEAM),]$Adjusted.SoS /  SoS[SoS$TEAM == as.character(away$TEAM),]$Adjusted.SoS
-  awaySoSoffset <- SoS[SoS$TEAM == as.character(away$TEAM),]$Adjusted.SoS / SoS[SoS$TEAM == as.character(home$TEAM),]$Adjusted.SoS
+  homeSoSOffset <- sqrt(SoS[SoS$TEAM == as.character(home$TEAM),]$Adjusted.SoS /  SoS[SoS$TEAM == as.character(away$TEAM),]$Adjusted.SoS)
+  awaySoSOffset <- sqrt(SoS[SoS$TEAM == as.character(away$TEAM),]$Adjusted.SoS / SoS[SoS$TEAM == as.character(home$TEAM),]$Adjusted.SoS)
   
   
   homePassO <- rnorm(n=runCount, mean=homePassOadj, sd=homePassOsd)
@@ -223,35 +224,35 @@ neutral.complex.predict <- function(homeName, awayName, runCount){
   
   for(j in 1:runCount){
     
-    homeExpectedPass <- c(homeSoSoffset*homePassO[j]*awayPassDYards[j], homeSoSoffset*awayPassD[j]*homePassOYards[j])
-    homeExpectedRun <- c(awaySoSoffset*homeRunO[j]*awayRunDYards[j], awaySoSoffset*awayRunD[j]*homeRunOYards[j])
+    homeExpectedPass <- c(max(0,homeSoSOffset*homePassO[j]*awayPassDYards[j]), max(0,homeSoSOffset*awayPassD[j]*homePassOYards[j]))
+    homeExpectedRun <- c(max(0,awaySoSOffset*homeRunO[j]*awayRunDYards[j]), max(0,awaySoSOffset*awayRunD[j]*homeRunOYards[j]))
     
-    awayExpectedPass <- c(homeSoSoffset*homePassD[j]*awayPassOYards[j], homeSoSoffset*awayPassO[j]*homePassDYards[j])
-    awayExpectedRun <- c(awaySoSoffset*homeRunD[j]*awayRunOYards[j], awaySoSoffset*awayRunO[j]*homeRunDYards[j])
+    awayExpectedPass <- c(max(0,homeSoSOffset*homePassD[j]*awayPassOYards[j]), max(0,homeSoSOffset*awayPassO[j]*homePassDYards[j]))
+    awayExpectedRun <- c(max(0,awaySoSOffset*homeRunD[j]*awayRunOYards[j]), max(0,awaySoSOffset*awayRunO[j]*homeRunDYards[j]))
     
-    homePointsFor <- c(homeSoSoffset*homePF[j]*awayPointsAgainstList[j], homeSoSoffset*awayPA[j]*homePointsForList[j])
-    awayPointsFor <- c(awaySoSoffset*homePA[j]*awayPointsForList[j], awaySoSoffset*awayPF[j]*homePointsAgainstList[j])
+    homePointsFor <- c(max(0,homeSoSOffset*homePF[j]*awayPointsAgainstList[j]), max(0,homeSoSOffset*awayPA[j]*homePointsForList[j]))
+    awayPointsFor <- c(max(0,awaySoSOffset*homePA[j]*awayPointsForList[j]), max(0,awaySoSOffset*awayPF[j]*homePointsAgainstList[j]))
     
-    homeExpectedPass[3] <- ((homeExpectedPass[1])+(homeExpectedPass[2]))/2 
-    homeExpectedRun[3] <- ((homeExpectedRun[1])+(homeExpectedRun[2]))/2 
+    homeExpectedPass[3] <- ((1.1*homeExpectedPass[1])+(0.9*homeExpectedPass[2]))/2 
+    homeExpectedRun[3] <- ((1.1*homeExpectedRun[1])+(0.9*homeExpectedRun[2]))/2 
     
-    awayExpectedPass[3] <- ((awayExpectedPass[1])+(awayExpectedPass[2]))/2 
-    awayExpectedRun[3] <- ((awayExpectedRun[1])+(awayExpectedRun[2]))/2 
+    awayExpectedPass[3] <- ((0.9*awayExpectedPass[1])+(1.1*awayExpectedPass[2]))/2 
+    awayExpectedRun[3] <- ((0.9*awayExpectedRun[1])+(1.1*awayExpectedRun[2]))/2 
     
-    homePointsFor[3] <- ((homePointsFor[1])+(homePointsFor[2]))/2 
-    awayPointsFor[3] <- ((awayPointsFor[1])+(awayPointsFor[2]))/2 
+    homePointsFor[3] <- ((1.1*homePointsFor[1])+(0.9*homePointsFor[2]))/2 
+    awayPointsFor[3] <- ((0.9*awayPointsFor[1])+(1.1*awayPointsFor[2]))/2 
     
-    homeTurnovers <- (0.65*awayTurnoverFor[j]+1.35*homeTurnoverAgainst[j])/2
+    homeTurnovers <- (0.7*awayTurnoverFor[j]+1.3*homeTurnoverAgainst[j])/2
     awayTurnovers <- (0.7*homeTurnoverFor[j]+1.3*awayTurnoverAgainst[j])/2
     
     turnoverMargin <- homeTurnover[j] - awayTurnover[j]
     
-    penaltyMargin <-  1.05*awayPenalty[j] - 0.95*homePenalty[j] 
+    penaltyMargin <-  awayPenalty[j] - homePenalty[j] 
     
     yardageMargin <- (homeExpectedRun[3]+homeExpectedPass[3])-(awayExpectedPass[3]+awayExpectedRun[3])
     
-    homePointsFor[4] <- 3 + (1.75*(yardageMargin/100.0))+(-2.75*turnoverMargin)+homePointsFor[3]
-    awayPointsFor[4] <- (-1.75*(yardageMargin/100.0))+(2.75*turnoverMargin)+awayPointsFor[3]
+    homePointsFor[4] <- max(0,(1.75*(yardageMargin/100.0))+(-1.75*turnoverMargin)+homePointsFor[3])
+    awayPointsFor[4] <- max(0,(-1.75*(yardageMargin/100.0))+(1.75*turnoverMargin)+awayPointsFor[3])
     
     homePass[j] <- homeExpectedPass[3]
     awayPass[j] <- awayExpectedPass[3]
@@ -280,15 +281,15 @@ neutral.complex.predict <- function(homeName, awayName, runCount){
   WINS <- c(length(homeScore[homeScore > awayScore]), length(homeScore[homeScore < awayScore]))
   return(Box.Score <- data.frame(TEAM, PASS, RUN, PENALTY, TURNOVERS, SCORE, WINS))
 }
-
-complex.predict <- function(homeName, awayName, runCount){
+predict <- function(homeName, awayName, runCount){
   
-  source('C:\\Users\\mb24244\\Documents\\football anaylsis\\SoSplayed.r')
-  SoS <- records
-  offense <- read.csv(file = 'C:\\Users\\mb24244\\Documents\\football anaylsis\\offense.csv', sep=',', header=T)
-  defense <- read.csv(file = 'C:\\Users\\mb24244\\Documents\\football anaylsis\\defense.csv', sep=',', header=T)
-  records <- read.csv(file = 'C:\\Users\\mb24244\\Documents\\football anaylsis\\records.csv', sep=',', header=T)
-  box.scores <- read.csv(file = 'C:\\Users\\mb24244\\Documents\\football anaylsis\\box_data.csv', sep=',', header=T)
+  
+  source('SoS_played.r')
+  SoS <- All.SoS()
+  offense <- read.csv(file = 'data\\offense.csv', sep=',', header=T)
+  defense <- read.csv(file = 'data\\defense.csv', sep=',', header=T)
+  records <- read.csv(file = 'data\\records.csv', sep=',', header=T)
+  box.scores <- read.csv(file = 'data\\box_data.csv', sep=',', header=T)
   
   averageSoS <- sum(SoS$Adjusted.SoS)/length(SoS$Adjusted.SoS)
   
@@ -372,22 +373,23 @@ complex.predict <- function(homeName, awayName, runCount){
     
     oppName <- as.character(homeOpps[i,]$OPP)
     
-    OSoSoff <- 1 + 2*(SoS[SoS$TEAM == oppName,]$Adjusted.SoS - averageSoS )
-    DSoSoff <- 1 + 2*(averageSoS - SoS[SoS$TEAM == oppName,]$Adjusted.SoS)
+    SoSOff <- sqrt(SoS[SoS$TEAM == oppName,]$Adjusted.SoS / averageSoS )
+    DSoSOff <- sqrt(averageSoS / SoS[SoS$TEAM == oppName,]$Adjusted.SoS)
     
     opp <- combine[combine$TEAM == oppName,]
-    homePassOoff[i] <- OSoSoff*((homeOpps[i,]$P.YARDS.FOR)/(opp$D.P.YDS.G))
-    homePassDoff[i] <- DSoSoff*(homeOpps[i,]$P.YARDS.AGAINST)/(opp$P.YDS.G)
-    homeRunOoff[i] <- OSoSoff*(homeOpps[i,]$R.YARDS.F)/opp$D.R.YDS.G
-    homeRunDoff[i] <- DSoSoff*(homeOpps[i,]$R.YARDS.AGAINST)/opp$R.YDS.G
-    homePFoff[i] <- OSoSoff*(homeOpps[i,]$POINTS.FOR)/opp$D.PTS.G
-    homePAoff[i] <- DSoSoff*(homeOpps[i,]$POINTS.AGAINST)/opp$PTS.G
     
-    homePassOYards.Past[i] <- homeOpps[i,]$P.YARDS.FOR
+    homePassOoff[i] <- SoSOff*((homeOpps[i,]$P.YARDS.FOR)/(opp$D.P.YDS.G))
+    homePassDoff[i] <- max(0, 1 + ((homeOpps[i,]$P.YARDS.AGAINST - SoSOff*opp$P.YDS.G)/(opp$P.YDS.G)))
+    homeRunOoff[i] <- SoSOff*(homeOpps[i,]$R.YARDS.F)/opp$D.R.YDS.G
+    homeRunDoff[i] <-  max(0, 1 + ((homeOpps[i,]$R.YARDS.AGAINST - SoSOff*opp$R.YDS.G)/(opp$R.YDS.G)))
+    homePFoff[i] <- SoSOff*(homeOpps[i,]$POINTS.FOR)/opp$D.PTS.G
+    homePAoff[i] <-  max(0, 1 + ((homeOpps[i,]$POINTS.AGAINST - SoSOff*opp$PTS.G)/(opp$PTS.G)))
+    
+    homePassOYards.Past[i] <-  homeOpps[i,]$P.YARDS.FOR
     homePassDYards.Past[i] <- homeOpps[i,]$P.YARDS.AGAINST
     homeRunOYards.Past[i] <- homeOpps[i,]$R.YARDS.F
     homeRunDYards.Past[i] <- homeOpps[i,]$R.YARDS.AGAINST
-    homePF.Past[i] <- homeOpps[i,]$POINTS.FOR
+    homePF.Past[i] <-  homeOpps[i,]$POINTS.FOR
     homePA.Past[i] <- homeOpps[i,]$POINTS.AGAINST
     
     
@@ -399,24 +401,23 @@ complex.predict <- function(homeName, awayName, runCount){
     oppName <- as.character(awayOpps[i,]$OPP)
     opp <- combine[combine$TEAM == oppName,]
     
-    OSoSoff <- 1 + 2*(SoS[SoS$TEAM == oppName,]$Adjusted.SoS - averageSoS )
-    DSoSoff <- 1 + 2*(averageSoS - SoS[SoS$TEAM == oppName,]$Adjusted.SoS)
+    SoSOff <- sqrt(SoS[SoS$TEAM == oppName,]$Adjusted.SoS / averageSoS )
+    DSoSOff <- sqrt(averageSoS / SoS[SoS$TEAM == oppName,]$Adjusted.SoS)
     
-    awayPassOoff[i] <-  OSoSoff*(awayOpps[i,]$P.YARDS.FOR)/opp$D.P.YDS.G
-    awayPassDoff[i] <-  DSoSoff*(awayOpps[i,]$P.YARDS.AGAINST)/opp$P.YDS.G
-    awayRunOoff[i] <-  OSoSoff*(awayOpps[i,]$R.YARDS.F)/opp$D.R.YDS.G
-    awayRunDoff[i] <-  DSoSoff*(awayOpps[i,]$R.YARDS.AGAINST)/opp$R.YDS.G
-    awayPFoff[i] <-  OSoSoff*(awayOpps[i,]$POINTS.FOR)/opp$D.PTS.G
-    awayPAoff[i] <-  DSoSoff*(awayOpps[i,]$POINTS.AGAINST)/opp$PTS.G
+    awayPassOoff[i] <- SoSOff*((awayOpps[i,]$P.YARDS.FOR)/(opp$D.P.YDS.G))
+    awayPassDoff[i] <- max(0, 1 + ((awayOpps[i,]$P.YARDS.AGAINST - SoSOff*opp$P.YDS.G)/(opp$P.YDS.G)))
+    awayRunOoff[i] <- SoSOff*(awayOpps[i,]$R.YARDS.F)/opp$D.R.YDS.G
+    awayRunDoff[i] <-  max(0, 1 + ((awayOpps[i,]$R.YARDS.AGAINST - SoSOff*opp$R.YDS.G)/(opp$R.YDS.G)))
+    awayPFoff[i] <- SoSOff*(awayOpps[i,]$POINTS.FOR)/opp$D.PTS.G
+    awayPAoff[i] <-  max(0, 1 + ((awayOpps[i,]$POINTS.AGAINST - SoSOff*opp$PTS.G)/(opp$PTS.G)))
     
     awayPassOYards.Past[i] <- awayOpps[i,]$P.YARDS.FOR
     awayPassDYards.Past[i] <- awayOpps[i,]$P.YARDS.AGAINST
-    awayRunOYards.Past[i] <- awayOpps[i,]$R.YARDS.F
+    awayRunOYards.Past[i] <-  awayOpps[i,]$R.YARDS.F
     awayRunDYards.Past[i] <- awayOpps[i,]$R.YARDS.AGAINST
-    awayPF.Past[i] <- awayOpps[i,]$POINTS.FOR
+    awayPF.Past[i] <-  awayOpps[i,]$POINTS.FOR
     awayPA.Past[i] <- awayOpps[i,]$POINTS.AGAINST
   }
-  
   homePassOadj <- sum(homePassOoff)/length(homePassOoff)
   homePassDadj <-  sum(homePassDoff)/length(homePassDoff)
   homeRunOadj <-  sum(homeRunOoff)/length(homeRunOoff)
@@ -447,8 +448,8 @@ complex.predict <- function(homeName, awayName, runCount){
   awayPAsd <-  sd(awayPAoff)
   
   
-  homeSoSoffset <- SoS[SoS$TEAM == as.character(home$TEAM),]$Adjusted.SoS /  SoS[SoS$TEAM == as.character(away$TEAM),]$Adjusted.SoS
-  awaySoSoffset <- SoS[SoS$TEAM == as.character(away$TEAM),]$Adjusted.SoS / SoS[SoS$TEAM == as.character(home$TEAM),]$Adjusted.SoS
+  homeSoSOffset <- sqrt(SoS[SoS$TEAM == as.character(home$TEAM),]$Adjusted.SoS /  SoS[SoS$TEAM == as.character(away$TEAM),]$Adjusted.SoS)
+  awaySoSOffset <- sqrt(SoS[SoS$TEAM == as.character(away$TEAM),]$Adjusted.SoS / SoS[SoS$TEAM == as.character(home$TEAM),]$Adjusted.SoS)
   
   
   homePassO <- rnorm(n=runCount, mean=homePassOadj, sd=homePassOsd)
@@ -505,36 +506,36 @@ complex.predict <- function(homeName, awayName, runCount){
   awayTurnover <- c(1:runCount)
   
   for(j in 1:runCount){
+  
+    homeExpectedPass <- c(max(0,homeSoSOffset*homePassO[j]*awayPassDYards[j]), max(0,homeSoSOffset*awayPassD[j]*homePassOYards[j]))
+    homeExpectedRun <- c(max(0,awaySoSOffset*homeRunO[j]*awayRunDYards[j]), max(0,awaySoSOffset*awayRunD[j]*homeRunOYards[j]))
     
-    homeExpectedPass <- c(homeSoSoffset*homePassO[j]*awayPassDYards[j], homeSoSoffset*awayPassD[j]*homePassOYards[j])
-    homeExpectedRun <- c(awaySoSoffset*homeRunO[j]*awayRunDYards[j], awaySoSoffset*awayRunD[j]*homeRunOYards[j])
+    awayExpectedPass <- c(max(0,homeSoSOffset*homePassD[j]*awayPassOYards[j]), max(0,homeSoSOffset*awayPassO[j]*homePassDYards[j]))
+    awayExpectedRun <- c(max(0,awaySoSOffset*homeRunD[j]*awayRunOYards[j]), max(0,awaySoSOffset*awayRunO[j]*homeRunDYards[j]))
     
-    awayExpectedPass <- c(homeSoSoffset*homePassD[j]*awayPassOYards[j], homeSoSoffset*awayPassO[j]*homePassDYards[j])
-    awayExpectedRun <- c(awaySoSoffset*homeRunD[j]*awayRunOYards[j], awaySoSoffset*awayRunO[j]*homeRunDYards[j])
+    homePointsFor <- c(max(0,homeSoSOffset*homePF[j]*awayPointsAgainstList[j]), max(0,homeSoSOffset*awayPA[j]*homePointsForList[j]))
+    awayPointsFor <- c(max(0,awaySoSOffset*homePA[j]*awayPointsForList[j]), max(0,awaySoSOffset*awayPF[j]*homePointsAgainstList[j]))
     
-    homePointsFor <- c(homeSoSoffset*homePF[j]*awayPointsAgainstList[j], homeSoSoffset*awayPA[j]*homePointsForList[j])
-    awayPointsFor <- c(awaySoSoffset*homePA[j]*awayPointsForList[j], awaySoSoffset*awayPF[j]*homePointsAgainstList[j])
+    homeExpectedPass[3] <- ((1.1*homeExpectedPass[1])+(0.9*homeExpectedPass[2]))/2 
+    homeExpectedRun[3] <- ((1.1*homeExpectedRun[1])+(0.9*homeExpectedRun[2]))/2 
     
-    homeExpectedPass[3] <- ((homeExpectedPass[1])+(homeExpectedPass[2]))/2 
-    homeExpectedRun[3] <- ((homeExpectedRun[1])+(homeExpectedRun[2]))/2 
+    awayExpectedPass[3] <- ((0.9*awayExpectedPass[1])+(1.1*awayExpectedPass[2]))/2 
+    awayExpectedRun[3] <- ((0.9*awayExpectedRun[1])+(1.1*awayExpectedRun[2]))/2 
     
-    awayExpectedPass[3] <- ((awayExpectedPass[1])+(awayExpectedPass[2]))/2 
-    awayExpectedRun[3] <- ((awayExpectedRun[1])+(awayExpectedRun[2]))/2 
+    homePointsFor[3] <- ((1.1*homePointsFor[1])+(0.9*homePointsFor[2]))/2 
+    awayPointsFor[3] <- ((0.9*awayPointsFor[1])+(1.1*awayPointsFor[2]))/2 
     
-    homePointsFor[3] <- ((homePointsFor[1])+(homePointsFor[2]))/2 
-    awayPointsFor[3] <- ((awayPointsFor[1])+(awayPointsFor[2]))/2 
-    
-    homeTurnovers <- (0.7*awayTurnoverFor[j]+1.3*homeTurnoverAgainst[j])/2
-    awayTurnovers <- (0.7*homeTurnoverFor[j]+1.3*awayTurnoverAgainst[j])/2
+    homeTurnovers <- (0.65*awayTurnoverFor[j]+1.35*homeTurnoverAgainst[j])/2
+    awayTurnovers <- (0.75*homeTurnoverFor[j]+1.25*awayTurnoverAgainst[j])/2
     
     turnoverMargin <- homeTurnover[j] - awayTurnover[j]
     
-    penaltyMargin <-  awayPenalty[j] - homePenalty[j] 
+    penaltyMargin <-  1.05* awayPenalty[j] - 0.95*homePenalty[j] 
     
     yardageMargin <- (homeExpectedRun[3]+homeExpectedPass[3])-(awayExpectedPass[3]+awayExpectedRun[3])
     
-    homePointsFor[4] <- (1.75*(yardageMargin/100.0))+(-2.75*turnoverMargin)+homePointsFor[3]
-    awayPointsFor[4] <- (-1.75*(yardageMargin/100.0))+(2.75*turnoverMargin)+awayPointsFor[3]
+    homePointsFor[4] <- max(0,3+(1.75*(yardageMargin/100.0))+(-1.75*turnoverMargin)+homePointsFor[3])
+    awayPointsFor[4] <- max(0,(-1.75*(yardageMargin/100.0))+(1.75*turnoverMargin)+awayPointsFor[3])
     
     homePass[j] <- homeExpectedPass[3]
     awayPass[j] <- awayExpectedPass[3]
@@ -543,8 +544,8 @@ complex.predict <- function(homeName, awayName, runCount){
     awayRun[j] <- awayExpectedRun[3]
     
     
-    homePenalty[j] <- homePenalty[j]
-    awayPenalty[j] <- awayPenalty[j] 
+    homePenalty[j] <- 0.95*homePenalty[j]
+    awayPenalty[j] <- 1.05*awayPenalty[j] 
     
     homeTurnover[j] <- homeTurnovers
     awayTurnover[j] <-awayTurnovers
@@ -563,5 +564,3 @@ complex.predict <- function(homeName, awayName, runCount){
   WINS <- c(length(homeScore[homeScore > awayScore]), length(homeScore[homeScore < awayScore]))
   return(Box.Score <- data.frame(TEAM, PASS, RUN, PENALTY, TURNOVERS, SCORE, WINS))
 }
-  
-  

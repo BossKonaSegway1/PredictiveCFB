@@ -1,263 +1,1088 @@
-TEAM,OPP,P YARDS FOR ,R YARDS F,P YARDS AGAINST,R YARDS AGAINST,POINTS FOR,POINTS AGAINST,PENALTY YARDS AGAINST,PENALTY YARDS FOR,TURNOVERS FOR,TURNOVERS AGAINST
-Notre Dame,Rice,295,281,226,141,48,17,10,30,2,0
-Notre Dame,Michigan,226,54,189,100,31,0,20,30,4,0
-Notre Dame,Purdue,259,139,234,56,30,14,43,41,3,1
-Notre Dame,Syracuse,362,161,294,135,31,15,80,85,1,5
-Notre Dame,Stanford,241,129,158,47,17,14,10,66,2,2
-Notre Dame,North Carolina,300,219,326,184,50,43,76,95,2,3
-Kentucky,Ohio,170,232,149,74,20,3,46,45,1,0
-Kentucky,Florida,369,81,295,237,30,36,61,78,1,3
-Kentucky,Vanderbilt,201,183,85,54,17,7,55,10,3,3
-Kentucky,South Carolina,208,239,218,282,45,38,80,353,3,1
-Kentucky,Louisiana-Monroe,216,136,187,77,48,14,54,41,3,1
-LSU,Wisconsin,239,126,50,268,28,24,50,26,2,1
-LSU,Louisiana-Monroe,153,219,77,16,31,0,54,45,1,1
-LSU,New Mexico State,200,363,102,172,63,7,35,35,4,4
-LSU,Mississippi State,341,89,268,302,29,34,28,41,2,1
-LSU,Auburn,142,138,268,298,7,41,31,80,1,0
-LSU,Florida,110,195,183,123,30,27,80,34,3,0
-Ohio State,Navy,226,20,226,370,34,17,20,20,1,1
-Ohio State,Virginia Tech,219,108,199,125,21,35,62,107,3,3
-Ohio State,Kent State,344,284,79,47,66,0,63,62,3,3
-Ohio State,Cincinnati,330,380,352,70,50,28,40,40,0,1
-Ohio State,Maryland,264,269,244,66,52,24,66,23,4,0
-Ohio State,Rutgers,261,324,196,149,56,17,28,0,3,1
-Penn State,UCF,454,57,222,24,26,24,90,47,1,3
-Penn State,Akron,319,106,208,69,21,3,25,64,0,3
-Penn State,Rutgers,309,64,192,102,13,10,40,75,5,1
-Penn State,Massachusetts,236,238,263,3,48,7,52,30,1,0
-Penn State,Northwestern,216,50,258,103,6,29,35,75,1,2
-Penn State,Michigan,160,54,192,64,13,18,23,30,1,1
-LSU,Kentucky,120,303,146,71,41,3,80,55,0,1
-Ole Miss,Boise State,387,71,264,135,35,13,78,72,4,3
-Ole Miss,Vanderbilt,367,180,60,107,41,3,35,53,1,1
-Ole Miss,Louisiana-Lafayette,340,214,129,193,56,15,30,0,4,1
-Ole Miss,Memphis,248,178,81,23,24,3,117,105,2,4
-Ole Miss,Alabama,251,76,228,168,23,17,25,52,2,1
-Ole Miss,Texas A&M,178,160,401,54,35,20,20,52,3,0
-Ole Miss,Tennessee,203,180,191,0,34,3,49,23,4,0
-USC,Fresno State,424,277,160,157,52,13,76,47,4,2
-USC,Stanford,135,156,285,128,13,10,87,68,2,0
-USC,Boston College,317,20,54,452,31,37,20,25,1,0
-USC,Oregon State,261,200,123,58,35,10,124,108,2,0
-USC,Arizona State,273,220,510,31,34,38,60,36,0,0
-USC,Arizona,185,239,395,77,28,26,106,35,1,2
-USC,Colorado,319,213,231,172,56,28,85,61,2,1
-Utah,Fresno State,268,258,283,55,59,27,118,55,1,0
-Utah,Michigan,205,81,190,118,26,10,50,20,4,1
-Utah,Washington State,165,192,417,78,27,28,78,40,3,1
-Utah,UCLA,100,242,269,137,30,28,40,29,1,0
-Utah,Oregon State,62,253,272,119,29,23,67,75,2,2
-Wisconsin,LSU,50,268,239,126,24,28,26,50,1,2
-Wisconsin,Bowling Green,112,644,178,93,68,17,55,36,2,3
-Wisconsin,South Florida,160,294,173,72,27,10,35,90,2,1
-Wisconsin,Northwestern,138,284,182,203,14,20,49,20,0,4
-Wisconsin,Illinois,97,401,135,153,38,28,53,50,1,0
-Maryland,South Florida,201,116,174,83,24,17,35,39,1,6
-Maryland,West Virginia,284,163,511,183,37,40,71,40,4,1
-Maryland,Syracuse,280,89,219,317,34,20,75,69,2,0
-Maryland,Indiana,361,123,126,206,37,15,83,55,1,0
-Maryland,Ohio State,244,66,264,269,24,52,23,66,0,4
-Maryland,Iowa,206,212,317,116,38,31,50,65,3,2
-Florida State,Oklahoma State,370,106,203,161,37,31,71,70,2,2
-Florida State,North Carolina State,365,166,359,161,56,41,58,83,2,4
-Florida State,Wake Forest,304,171,86,40,43,3,48,62,3,2
-Florida State,Syracuse,317,165,256,156,38,20,36,64,3,2
-Florida State,Clemson,304,13,306,101,23,17,41,29,1,2
-Florida State,Notre Dame,273,50,313,157,31,27,84,67,2,1
-Texas A&M,South Carolina,511,169,366,67,52,28,95,21,1,0
-Texas A&M,Rice,309,168,241,240,38,10,60,66,0,1
-Texas A&M,SMU,395,268,139,102,58,6,53,75,0,1
-Texas A&M,Arkansas,386,137,199,285,35,28,70,76,1,1
-Texas A&M,Mississippi State,365,161,279,280,31,48,38,20,2,3
-Texas A&M,Ole Miss,401,54,178,160,20,35,52,20,0,3
-Texas A&M,Alabama,141,31,304,298,0,59,6,0,0,1
-Baylor,SMU,313,261,94,-24,45,0,96,40,3,2
-Baylor,Buffalo,480,189,255,139,63,21,40,59,1,0
-Baylor,Iowa State,357,244,212,127,49,28,78,45,1,1
-Baylor,Texas,111,278,144,190,28,7,95,45,3,0
-Baylor,TCU,346,139,510,272,61,58,117,110,3,1
-Baylor,West Virginia,223,95,322,134,27,41,215,138,3,0
-Marshall,Miami (OH),261,171,318,100,42,27,98,107,1,1
-Marshall,Ohio,448,257,236,141,44,14,60,75,2,1
-Marshall,Akron,242,284,251,92,48,17,188,94,4,1
-Marshall,Old Dominion,237,354,85,201,56,14,54,9,1,3
-Marshall,Middle Tennessee,337,252,201,169,49,24,101,101,2,2
-Marshall,Florida International,214,243,208,177,45,13,65,88,2,1
-West Virginia,Alabama,365,28,250,288,23,33,55,49,1,0
-West Virginia,Maryland,511,183,284,163,40,37,40,71,1,4
-West Virginia,Oklahoma,376,137,209,301,33,45,55,82,1,3
-West Virginia,Kansas,302,255,111,65,33,14,45,117,0,3
-West Virginia,Texas Tech,301,249,348,217,37,34,63,115,1,1
-West Virginia,Baylor,322,134,223,95,41,27,138,215,0,3
-Washington State,Rutgers,532,6,281,215,38,41,77,78,1,2
-Washington State,Nevada,389,38,110,214,13,24,72,90,0,2
-Washington State,Oregon,436,63,329,172,31,38,54,86,0,2
-Washington State,Utah,417,78,165,192,28,27,40,78,1,3
-Washington State,California,734,78,527,62,59,60,121,34,0,0
-Washington State,Stanford,292,-26,284,193,17,34,75,80,1,1
-Middle Tennessee,Minnesota,255,190,67,284,24,35,80,24,1,3
-Middle Tennessee,Western Kentucky,218,323,593,125,50,47,62,92,1,0
-Middle Tennessee,Memphis,237,88,219,261,17,36,36,35,1,3
-Middle Tennessee,Old Dominion,259,280,362,31,41,28,85,25,4,2
-Middle Tennessee,Southern Miss,344,239,426,111,37,31,49,48,2,1
-Middle Tennessee,Marshall,201,169,337,252,24,49,101,101,2,2
-Middle Tennessee,UAB,141,229,185,220,43,22,70,90,3,0
-Oregon,Michigan State,318,173,343,123,46,27,70,38,2,0
-Oregon,Wyoming,293,263,284,155,48,14,30,48,3,0
-Oregon,Washington State,329,172,436,63,38,31,86,54,2,0
-Oregon,Arizona,302,144,287,208,24,31,78,79,2,2
-Oregon,UCLA,210,258,225,328,42,30,37,81,2,0
-Oregon,Washington,336,218,184,133,45,20,90,24,2,0
-Michigan State,Oregon,343,123,318,173,27,46,38,70,0,2
-Michigan State,Eastern Michigan,160,336,115,20,73,14,25,38,6,1
-Michigan State,Wyoming,195,338,188,98,56,14,84,43,3,0
-Michigan State,Nebraska,234,188,282,47,27,22,94,48,4,3
-Michigan State,Purdue,238,294,211,129,45,31,55,21,2,1
-Michigan State,Indiana,332,330,11,213,56,17,37,25,1,1
-Nebraska,Michigan State,282,47,234,188,22,27,48,94,3,4
-Nebraska,Florida Atlantic,286,498,95,105,55,7,60,22,0,0
-Nebraska,Fresno State,282,280,241,105,55,19,61,55,0,1
-Nebraska,Miami (FL),113,343,359,76,41,31,69,82,3,2
-Nebraska,Illinois,166,458,261,78,45,14,70,53,3,2
-Nebraska,Northwestern,237,234,173,171,38,17,83,50,1,0
-Bowling Green,Western Kentucky,313,152,569,139,31,59,96,66,0,0
-Bowling Green,Indiana,395,176,347,235,45,42,42,143,1,2
-Bowling Green,Wisconsin,178,93,112,644,17,68,36,55,3,2
-Bowling Green,Massachusetts,443,225,589,49,47,42,112,30,4,3
-Bowling Green,Buffalo,321,187,134,234,36,35,82,70,1,3
-Bowling Green,Ohio,260,95,386,127,31,13,153,75,2,1
-Bowling Green,Western Michigan,139,135,166,195,14,26,40,49,0,2
-Alabama,West Virginia,250,288,365,28,33,23,49,55,0,1
-Alabama,Florida Atlantic,430,190,88,57,41,0,60,23,1,1
-Alabama,Southern Miss,214,333,207,56,52,12,25,50,0,1
-Alabama,Florida,449,223,93,107,42,21,80,36,3,4
-Alabama,Ole Miss,228,168,251,76,17,23,52,25,1,2
-Alabama,Arkansas,161,66,246,89,14,13,30,28,3,2
-Alabama,Texas A&M,304,298,151,31,59,0,0,6,1,0
-Georgia Southern,North Carolina State,291,173,192,246,23,24,35,20,1,1
-Georgia Southern,Georgia Tech,188,348,245,283,42,38,60,55,0,1
-Georgia Southern,South Alabama,85,149,335,147,28,6,10,50,2,2
-Georgia Southern,Appalachian State,88,408,256,74,34,14,75,55,2,1
-Georgia Southern,New Mexico State,18,419,334,183,36,28,35,10,4,1
-Georgia Southern,Idaho,201,349,271,94,47,24,48,23,1,1
-Toledo,Missouri,256,154,325,177,24,49,60,25,2,2
-Toledo,Cincinnati,323,240,436,148,34,58,65,20,0,1
-Toledo,Ball State,152,318,176,175,34,23,37,40,0,2
-Toledo,Central Michigan,339,204,291,95,42,28,47,35,2,2
-Toledo,Western Michigan,219,234,388,62,20,19,35,30,0,3
-Toledo,Iowa State,189,236,351,103,30,37,56,50,0,0
-California,Northwestern,300,114,246,108,31,24,59,0,2,2
-California,Arizona,380,193,520,107,45,49,99,65,2,2
-California,Colorado,458,127,455,175,59,56,107,75,1,2
-California,Washington State,527,62,734,78,60,59,34,121,0,0
-California,Washington,304,64,273,111,7,31,56,76,0,3
-California,UCLA,310,56,330,237,34,36,40,63,3,1
-UCLA,California,330,237,310,56,36,34,63,40,1,3
-UCLA,Virginia,266,120,242,116,28,20,87,20,3,2
-UCLA,Memphis,396,144,305,164,42,35,85,110,0,1
-UCLA,Texas,226,217,196,126,20,17,51,50,0,1
-UCLA,Arizona State,355,225,488,138,62,27,78,59,4,0
-UCLA,Utah,269,137,100,242,28,30,29,40,0,1
-UCLA,Oregon,225,328,210,258,30,42,81,37,0,2
-Texas Tech,UTEP,278,226,116,268,30,26,90,40,0,1
-Texas Tech,Arkansas,252,101,61,438,28,49,60,15,3,2
-Texas Tech,Oklahoma State,394,118,370,158,35,49,158,129,2,3
-Texas Tech,Kansas State,301,46,290,245,13,45,89,15,1,4
-Texas Tech,West Virginia,348,217,301,249,34,37,115,63,1,1
-Texas Tech,Kansas,288,219,235,118,34,21,22,35,2,2
-Massachusetts,Boston College,147,55,173,338,7,30,23,55,1,1
-Massachusetts,Colorado,267,105,318,156,38,41,85,123,1,1
-Massachusetts,Vanderbilt,258,88,150,160,31,34,10,77,1,1
-Massachusetts,Penn State,263,3,236,228,7,48,30,52,0,1
-Massachusetts,Bowling Green,589,49,443,225,42,47,30,112,3,4
-Massachusetts,Miami (OH),389,165,437,120,41,42,60,95,1,4
-Massachusetts,Kent State,286,196,191,150,40,17,105,80,1,0
-Massachusetts,Eastern Michigan,337,225,147,133,36,14,55,92,1,3
-Boise State,Ole Miss,264,135,387,71,13,35,72,78,3,4
-Boise State,Colorado State,352,324,434,28,37,24,101,20,3,1
-Boise State,Connecticut,240,52,242,48,38,21,65,30,3,1
-Boise State,Louisiana-Lafayette,237,262,174,67,34,9,60,40,1,0
-Boise State,Air Force,370,48,97,287,14,28,80,47,2,7
-Boise State,Nevada,346,224,306,156,51,46,63,22,4,3
-Boise State,Fresno State,228,264,127,186,37,27,30,20,1,1
-Fresno State,Boise State,127,186,228,264,27,37,20,30,1,1
-Fresno State,USC,160,157,424,277,13,52,47,76,2,4
-Fresno State,Utah,283,55,268,258,27,59,55,118,0,1
-Fresno State,Nebraska,241,105,282,280,19,55,55,61,1,0
-Fresno State,New Mexico,321,272,97,285,35,24,27,59,0,2
-Fresno State,San Diego State,143,172,84,186,24,13,37,64,3,2
-Fresno State,UNLV,310,177,332,146,27,30,80,52,1,3
-East Carolina,South Carolina,321,132,266,175,23,33,40,60,1,2
-East Carolina,Virginia Tech,427,75,298,91,28,21,114,64,2,1
-East Carolina,North Carolina,446,343,294,145,70,41,74,85,1,1
-East Carolina,SMU,410,171,339,51,45,24,53,15,1,1
-East Carolina,South Florida,250,231,257,93,28,17,148,59,1,1
-UAB,Troy,490,152,201,71,48,10,35,55,1,2
-UAB,Mississippi State,435,113,224,292,34,47,27,32,1,1
-UAB,Florida International,196,184,204,93,20,34,40,65,0,6
-UAB,Western Kentucky,300,291,219,184,42,39,55,50,0,3
-UAB,North Texas,320,128,291,163,56,21,15,30,5,0
-UAB,Middle Tennessee,185,220,141,229,22,34,90,70,0,3
-Arizona,UNLV,434,353,252,119,58,13,63,64,1,0
-Arizona,UTSA,231,223,228,121,26,23,73,53,1,0
-Arizona,Nevada,278,229,321,108,35,28,47,74,0,1
-Arizona,California,520,107,380,193,49,45,65,99,2,2
-Arizona,Oregon,287,208,302,144,31,24,79,79,2,2
-Arizona,USC,395,77,185,239,26,28,35,103,2,1
-Northern Illinois,Northwestern,180,221,322,72,23,15,75,93,1,0
-Northern Illinois,UNLV,285,331,397,102,48,34,86,32,1,1
-Northern Illinois,Arkansas,180,123,215,212,14,52,67,30,0,1
-Northern Illinois,Kent State,198,181,244,83,17,14,81,27,0,1
-Northern Illinois,Central Michigan,231,110,269,283,17,34,34,29,1,1
-Northern Illinois,Miami (OH),225,433,346,168,51,41,43,56,0,1
-Buffalo,Army,401,153,125,341,39,47,64,105,2,3
-Buffalo,Baylor,255,139,480,189,21,63,59,40,0,1
-Buffalo,Miami (OH),302,273,238,133,35,27,58,55,0,0
-Buffalo,Bowling Green,134,234,321,187,35,36,70,82,3,1
-Buffalo,Eastern Michigan,383,154,147,337,27,37,60,62,1,3
-Arkansas State,Tennessee,190,141,247,168,19,34,75,14,1,1
-Arkansas State,Miami (FL),236,93,342,146,20,41,84,93,2,2
-Arkansas State,Utah State,190,126,268,145,21,14,62,100,1,4
-Arkansas State,Louisiana-Monroe,284,288,276,72,28,14,110,69,2,3
-Arkansas State,Georgia State,234,384,198,71,52,10,40,5,2,2
-Arkansas State,Louisiana-Lafayette,342,253,102,419,40,55,51,83,0,1
-Western Kentucky,Bowling Green,569,139,3131,152,59,31,66,96,0,0
-Western Kentucky,Illinois,297,103,456,64,34,42,24,69,3,3
-Western Kentucky,Middle Tennessee,593,125,218,323,47,50,92,62,0,1
-Western Kentucky,Navy,387,164,55,412,36,27,66,25,2,1
-Western Kentucky,UAB,319,184,300,291,39,42,50,55,3,0
-Western Kentucky,Florida International,335,67,341,278,38,45,25,59,1,2
-Colorado State,Colorado,134,266,241,134,31,17,63,65,0,1
-Colorado State,Boise State,434,28,352,324,24,37,20,101,1,3
-Colorado State,Boston College,268,162,169,239,24,21,69,35,1,2
-Colorado State,Tulsa,298,234,263,127,41,17,74,30,3,2
-Colorado State,Nevada,326,119,297,160,31,24,25,45,1,1
-Colorado State,Utah State,243,75,160,100,16,13,116,45,1,0
-Colorado,Colorado State,241,134,134,266,17,31,65,63,1,0
-Colorado,Massachusetts,318,156,267,105,41,38,123,85,1,1
-Colorado,Arizona State,313,232,203,223,24,38,75,59,0,3
-Colorado,Hawaii,287,118,155,131,21,12,83,15,2,2
-Colorado,California,455,175,458,127,56,59,75,107,2,1
-Colorado,Oregon State,308,123,278,167,31,36,67,42,0,1
-Colorado,USC,231,172,319,213,28,56,61,85,1,2
-North Carolina State,Georgia Southern,291,173,192,246,24,23,20,35,1,1
-North Carolina State,Old Dominion,253,242,308,196,46,34,5,20,1,0
-North Carolina State,South Florida,274,315,89,70,49,17,38,40,3,2
-North Carolina State,Florida State,359,161,365,166,41,56,83,58,2,4
-North Carolina State,Clemson,35,119,267,226,0,41,45,97,0,3
-North Carolina State,Boston College,174,43,101,310,14,30,20,30,1,2
-North Carolina State,Louisville,223,128,203,166,18,30,20,33,0,1
-Georgia Tech,Tulane,15,344,231,96,38,21,35,69,3,3
-Georgia Tech,Georgia Southern,188,348,245,283,42,38,55,60,1,0
-Georgia Tech,Virginia Tech,125,250,297,127,27,24,60,79,3,1
-Georgia Tech,Miami (FL),53,318,245,107,28,17,69,38,2,0
-Georgia Tech,Duke,201,282,131,242,25,31,69,35,0,3
-Georgia Tech,North Carolina,235,376,390,189,43,48,32,35,1,1
-New Mexico State,Georgia State,241,194,294,162,34,31,38,59,4,3
-New Mexico State,UTEP,335,90,126,344,24,42,17,43,1,2
-New Mexico State,New Mexico,333,187,67,432,35,38,35,54,1,2
-New Mexico State,LSU,102,172,200,363,7,63,35,35,4,4
-New Mexico State,Georgia Southern,334,183,18,419,28,36,35,10,1,4
-New Mexico State,Troy,272,123,211,360,24,41,12,49,2,4
-New Mexico State,Idaho,100,214,226,310,17,29,39,57,2,4
+TEAM,POINTS FOR,P YARDS FOR ,R YARDS F,PENALTY YARDS AGAINST,TURNOVERS AGAINST,OPP,POINTS AGAINST,P YARDS AGAINST,R YARDS AGAINST,PENALTY YARDS FOR,TURNOVERS FOR
+Air Force,48,224,315,20,0,Georgia State,38,414,118,62,1
+Air Force,28,97,287,47,2,Boise State,14,370,48,80,7
+Air Force,13,226,151,25,2,Wyoming,17,282,51,15,0
+Air Force,30,166,198,65,0,Navy,21,142,251,55,2
+Air Force,16,224,155,30,4,Utah State,34,311,77,43,1
+Air Force,35,159,269,5,1,New Mexico,31,33,367,15,2
+Akron,3,208,69,64,0,Penn State,21,319,106,25,3
+Akron,17,251,92,94,4,Marshall,48,242,284,188,1
+Akron,21,213,169,64,1,Pittsburgh,10,220,129,55,2
+Akron,31,355,197,124,0,Eastern Michigan,6,185,94,60,4
+Akron,29,167,151,74,2,Miami (OH),19,352,0,102,3
+Akron,20,268,84,83,3,Ohio,23,197,159,120,2
+Akron,21,200,125,45,5,Ball State,35,225,155,20,0
+Alabama,33,250,288,49,1,West Virginia,23,365,28,55,0
+Alabama,41,430,190,60,1,Florida Atlantic,0,88,57,23,1
+Alabama,52,214,333,25,1,Southern Miss,12,207,56,50,0
+Alabama,42,449,223,80,4,Florida,21,93,107,36,3
+Alabama,17,228,168,52,2,Ole Miss,23,251,76,25,1
+Alabama,14,161,66,30,2,Arkansas,13,246,89,28,3
+Alabama,59,304,298,0,0,Texas A&M,0,151,31,6,1
+Alabama,34,286,183,50,2,Tennessee,20,202,181,33,2
+Appalachian State,14,127,153,69,0,Michigan,52,210,350,44,1
+Appalachian State,20,264,191,59,3,Southern Miss,21,268,61,103,2
+Appalachian State,14,256,74,55,2,Georgia Southern,34,88,408,75,1
+Appalachian State,21,191,203,77,3,South Alabama,47,339,243,124,0
+Appalachian State,53,110,441,52,1,Troy,14,229,79,89,4
+Arizona,58,434,353,63,0,UNLV,13,252,119,64,1
+Arizona,26,231,223,73,0,UTSA,23,228,121,53,1
+Arizona,35,278,229,47,1,Nevada,28,321,108,74,0
+Arizona,49,520,107,65,2,California,45,380,193,99,2
+Arizona,31,287,208,79,2,Oregon,24,302,144,79,2
+Arizona,26,395,77,35,1,USC,28,185,239,103,2
+Arizona,59,294,157,89,1,Washington State,37,489,54,85,2
+Arizona State,68,198,423,30,1,New Mexico,23,130,207,73,3
+Arizona State,38,203,223,59,0,Colorado,24,313,232,75,3
+Arizona State,27,488,138,59,4,UCLA,62,355,225,78,0
+Arizona State,38,510,31,36,0,USC,34,273,220,60,0
+Arizona State,26,356,114,9,0,Stanford,10,212,76,36,2
+Arizona State,24,180,105,20,1,Washington,10,139,151,30,3
+Arkansas,21,175,153,40,1,Auburn,45,293,302,71,1
+Arkansas,49,61,438,15,3,Texas Tech,28,252,101,60,2
+Arkansas,52,215,212,67,0,Northern Illinois,14,180,123,30,1
+Arkansas,28,199,285,76,1,Texas A&M,35,386,137,70,1
+Arkansas,13,246,89,28,3,Alabama,14,161,66,30,2
+Arkansas,32,296,126,79,4,Georgia,45,179,207,101,0
+Arkansas,45,211,273,9,1,UAB,17,195,62,10,1
+Arkansas State,19,190,141,75,1,Tennessee,34,247,168,14,1
+Arkansas State,20,236,93,84,2,Miami (FL),41,342,146,93,2
+Arkansas State,21,190,126,62,4,Utah State,14,268,145,100,1
+Arkansas State,28,284,288,110,3,Louisiana-Monroe,14,276,72,69,2
+Arkansas State,52,234,384,40,2,Georgia State,10,198,71,5,2
+Arkansas State,40,342,253,51,1,Louisiana-Lafayette,55,102,419,83,0
+Army,47,125,341,105,2,Buffalo,39,401,153,64,3
+Army,0,9,198,20,2,Stanford,35,216,199,30,1
+Army,21,18,341,57,2,Wake Forest,24,238,100,30,1
+Army,33,48,425,15,1,Ball State,24,173,157,36,2
+Army,21,91,250,24,2,Rice,41,209,182,41,0
+Army,39,35,295,38,1,Kent State,17,360,107,53,1
+Auburn,23,209,232,56,4,Mississippi State,38,246,223,50,4
+Auburn,45,293,302,71,1,Arkansas,21,175,153,40,1
+Auburn,59,135,358,45,2,San Jose State,13,254,65,66,3
+Auburn,20,231,128,46,1,Kansas State,14,245,40,0,3
+Auburn,45,219,254,51,0,Louisiana Tech,17,216,105,40,2
+Auburn,41,268,298,80,1,LSU,7,142,138,31,0
+Auburn,42,156,395,20,1,South Carolina,35,416,119,53,3
+Ball State,13,129,90,45,1,Iowa,17,342,113,30,2
+Ball State,23,176,175,40,0,Toledo,34,152,318,37,2
+Ball State,24,173,157,36,2,Army,33,48,425,15,1
+Ball State,38,326,145,55,0,Western Michigan,42,290,208,45,2
+Ball State,32,198,89,25,1,Central Michigan,29,245,181,91,5
+Ball State,35,225,155,20,0,Akron,21,200,125,45,5
+Baylor,45,313,261,96,2,SMU,0,94,-24,40,3
+Baylor,63,480,189,40,0,Buffalo,21,255,139,59,1
+Baylor,49,357,244,78,1,Iowa State,28,212,127,45,1
+Baylor,28,111,278,95,0,Texas,7,144,190,45,3
+Baylor,61,346,139,117,1,TCU,58,510,272,110,3
+Baylor,27,223,95,215,0,West Virginia,41,322,134,138,3
+Boise State,13,264,135,72,4,Ole Miss,35,387,71,78,3
+Boise State,37,352,324,101,1,Colorado State,24,434,28,20,3
+Boise State,38,240,52,65,1,Connecticut,21,242,48,30,3
+Boise State,34,237,262,60,0,Louisiana-Lafayette,9,174,67,40,1
+Boise State,14,370,48,80,7,Air Force,28,97,287,47,2
+Boise State,51,346,224,63,3,Nevada,46,306,156,22,4
+Boise State,37,228,264,30,1,Fresno State,27,127,186,20,1
+Boise State,55,410,227,70,1,BYU,30,259,63,70,2
+Boston College,30,173,338,55,1,Massachusetts,7,147,55,23,1
+Boston College,20,134,142,25,2,Pittsburgh,30,111,303,55,1
+Boston College,37,54,452,25,1,USC,31,317,20,20,0
+Boston College,21,169,239,35,1,Colorado State,24,268,162,69,2
+Boston College,30,101,310,30,1,North Carolina State,14,174,43,20,2
+Boston College,13,143,120,30,0,Clemson,17,285,113,30,0
+Boston College,23,165,202,54,1,Wake Forest,17,242,19,49,1
+Bowling Green,31,313,152,96,0,Western Kentucky,59,569,139,66,0
+Bowling Green,45,395,176,42,2,Indiana,42,347,235,143,1
+Bowling Green,17,178,93,36,2,Wisconsin,68,112,644,55,3
+Bowling Green,47,443,225,112,3,Massachusetts,42,589,49,30,4
+Bowling Green,36,321,187,82,3,Buffalo,35,134,234,70,1
+Bowling Green,31,260,95,153,1,Ohio,13,386,127,75,2
+Bowling Green,14,139,135,40,2,Western Michigan,26,166,195,49,0
+Buffalo,39,401,153,64,3,Army,47,125,341,105,2
+Buffalo,21,255,139,59,1,Baylor,63,480,189,40,0
+Buffalo,35,302,273,58,0,Miami (OH),27,238,133,55,0
+Buffalo,35,134,234,70,1,Bowling Green,36,321,187,82,3
+Buffalo,27,383,154,60,3,Eastern Michigan,37,147,337,62,1
+Buffalo,14,231,110,40,2,Central Michigan,20,233,38,49,2
+BYU,35,308,205,150,2,Connecticut,10,284,71,90,2
+BYU,41,181,248,40,2,Texas,7,176,82,64,4
+BYU,33,200,323,99,3,Houston,25,315,3,83,0
+BYU,41,187,145,133,0,Virginia,33,327,192,86,2
+BYU,20,271,154,60,4,Utah State,35,321,136,105,1
+BYU,24,153,189,71,2,UCF,31,326,63,44,4
+BYU,42,408,193,75,3,Nevada,35,285,126,36,0
+BYU,30,259,63,70,2,Boise State,55,410,227,70,1
+California,31,300,114,59,2,Northwestern,24,246,108,0,2
+California,45,380,193,99,2,Arizona,49,520,107,65,2
+California,59,458,127,107,2,Colorado,56,455,175,75,1
+California,60,527,62,34,0,Washington State,59,734,78,121,0
+California,7,304,64,56,3,Washington,31,273,111,76,0
+California,34,310,56,40,1,UCLA,36,330,237,63,3
+California,41,367,193,111,2,Oregon,59,326,264,106,2
+Central Michigan,38,172,161,5,1,Purdue,17,204,122,69,3
+Central Michigan,3,183,34,49,2,Syracuse,40,174,289,41,0
+Central Michigan,10,178,101,43,3,Kansas,24,231,138,65,1
+Central Michigan,28,291,95,35,2,Toledo,42,339,204,47,2
+Central Michigan,28,233,234,50,1,Ohio,10,98,89,18,0
+Central Michigan,34,269,283,29,1,Northern Illinois,17,231,110,34,1
+Central Michigan,29,245,181,91,5,Ball State,32,198,89,25,1
+Central Michigan,20,233,38,49,2,Buffalo,14,231,110,40,2
+Cincinnati,58,436,148,20,0,Toledo,34,323,240,65,1
+Cincinnati,31,271,99,30,2,Miami (OH),24,262,102,38,3
+Cincinnati,28,352,70,40,0,Ohio State,50,330,380,40,1
+Cincinnati,14,255,97,55,2,Memphis,41,311,299,72,0
+Cincinnati,34,355,67,54,3,Miami (FL),55,286,335,155,1
+Cincinnati,41,268,240,69,0,SMU,3,178,98,74,4
+Cincinnati,34,317,273,37,3,South Florida,17,239,42,95,4
+Clemson,21,203,88,40,1,Georgia,45,131,328,65,1
+Clemson,17,306,101,30,1,Florida State,23,304,13,41,2
+Clemson,50,436,92,19,1,North Carolina,35,394,84,130,1
+Clemson,41,267,226,97,0,North Carolina State,0,35,119,45,3
+Clemson,23,157,72,14,2,Louisville,17,212,52,65,2
+Clemson,17,285,113,30,0,Boston College,13,143,120,30,0
+Clemson,16,209,166,15,4,Syracuse,6,88,82,30,3
+Colorado,17,241,134,65,0,Colorado State,31,134,266,63,1
+Colorado,41,318,156,123,1,Massachusetts,38,267,105,85,1
+Colorado,24,313,232,75,3,Arizona State,38,203,223,59,0
+Colorado,21,287,118,83,2,Hawaii,12,155,131,15,2
+Colorado,56,455,175,75,1,California,59,458,127,107,2
+Colorado,31,308,123,67,1,Oregon State,36,278,167,42,0
+Colorado,28,231,172,61,2,USC,56,319,213,85,1
+Colorado,37,267,233,50,2,UCLA,40,200,309,121,1
+Colorado State,31,134,266,63,1,Colorado,17,241,134,65,0
+Colorado State,24,434,28,20,3,Boise State,37,352,324,101,1
+Colorado State,24,268,162,69,2,Boston College,21,169,239,35,1
+Colorado State,41,298,234,74,2,Tulsa,17,263,127,30,3
+Colorado State,31,326,119,25,1,Nevada,24,297,160,45,1
+Colorado State,16,243,75,116,0,Utah State,13,160,100,45,1
+Colorado State,45,411,147,87,0,Wyoming,31,335,119,53,0
+Connecticut,35,284,71,90,2,BYU,10,308,205,150,2
+Connecticut,21,242,48,30,3,Boise State,38,240,52,65,1
+Connecticut,14,88,44,48,1,South Florida,17,113,158,45,1
+Connecticut,10,174,133,70,3,Temple,36,231,41,57,1
+Connecticut,3,141,76,15,3,Tulane,12,135,167,64,0
+Connecticut,21,313,84,118,1,East Carolina,31,445,135,105,1
+Duke,34,270,182,43,0,Troy,17,238,158,55,0
+Duke,41,180,331,41,0,Kansas,3,95,202,74,2
+Duke,47,181,256,80,2,Tulane,13,160,230,92,5
+Duke,10,179,85,50,3,Miami (FL),22,223,203,93,2
+Duke,31,131,242,35,0,Georgia Tech,25,201,282,69,3
+Duke,20,179,155,30,0,Virginia,13,325,140,60,1
+East Carolina,23,321,132,40,2,South Carolina,33,266,175,60,1
+East Carolina,28,427,75,114,1,Virginia Tech,21,298,91,64,2
+East Carolina,70,446,343,74,1,North Carolina,41,294,145,85,1
+East Carolina,45,410,171,53,1,SMU,24,339,51,15,1
+East Carolina,28,250,231,148,1,South Florida,17,257,93,59,1
+East Carolina,31,445,135,105,1,Connecticut,21,313,84,118,1
+Eastern Michigan,0,45,85,40,5,Florida,65,396,259,100,0
+Eastern Michigan,3,72,143,47,2,Old Dominion,17,187,180,45,2
+Eastern Michigan,14,115,20,38,6,Michigan State,73,160,336,25,1
+Eastern Michigan,6,185,94,60,4,Akron,31,355,197,124,0
+Eastern Michigan,37,147,337,62,1,Buffalo,27,383,154,60,3
+Eastern Michigan,14,147,133,92,1,Massachusetts,36,337,225,55,3
+Eastern Michigan,17,124,257,80,1,Northern Illinois,28,54,332,37,0
+Florida,0,45,85,40,5,Eastern Michigan,65,396,259,100,0
+Florida,30,369,81,61,3,Kentucky,36,295,237,78,1
+Florida,42,449,223,80,4,Alabama,21,93,107,36,3
+Florida,10,76,156,45,3,Tennessee,9,205,28,49,3
+Florida,30,110,195,80,0,LSU,27,183,123,34,3
+Florida,42,20,99,74,6,Missouri,13,148,135,39,1
+Florida Atlantic,7,95,105,22,0,Nebraska,55,286,498,60,0
+Florida Atlantic,0,88,57,23,1,Alabama,41,430,190,60,1
+Florida Atlantic,50,341,177,37,0,Tulsa,21,269,94,25,3
+Florida Atlantic,19,108,188,23,3,Wyoming,20,161,173,36,1
+Florida Atlantic,41,295,114,52,2,UTSA,37,272,140,50,2
+Florida Atlantic,10,225,158,40,4,Florida International,38,160,185,51,1
+Florida Atlantic,45,341,278,59,1,Western Kentucky,38,335,67,25,2
+Florida Atlantic,16,179,209,45,0,Marshall,35,218,328,60,0
+Florida International,25,236,57,68,1,Pittsburgh,45,101,321,40,3
+Florida International,3,117,88,60,2,Louisville,34,324,12,36,0
+Florida International,34,204,93,65,0,UAB,20,196,184,40,6
+Florida International,38,160,185,51,1,Florida Atlantic,10,225,158,40,4
+Florida International,13,141,118,30,5,UTSA,16,175,143,71,3
+Florida International,13,208,177,88,2,Marshall,45,214,243,65,1
+Florida State,37,370,106,71,2,Oklahoma State,31,203,161,70,2
+Florida State,56,365,166,58,4,North Carolina State,41,359,161,83,2
+Florida State,43,304,171,48,2,Wake Forest,3,86,40,62,3
+Florida State,38,317,165,36,2,Syracuse,20,256,156,64,3
+Florida State,23,304,13,41,2,Clemson,17,306,101,29,1
+Florida State,31,273,50,84,1,Notre Dame,27,313,157,67,2
+Fresno State,27,127,186,20,1,Boise State,37,228,264,30,1
+Fresno State,13,160,157,47,4,USC,52,424,277,76,2
+Fresno State,27,283,55,55,1,Utah,59,268,258,118,0
+Fresno State,19,241,105,55,0,Nebraska,55,282,280,61,1
+Fresno State,35,321,272,27,2,New Mexico,24,97,285,59,0
+Fresno State,24,143,172,37,2,San Diego State,13,84,186,64,3
+Fresno State,27,310,177,80,3,UNLV,30,332,146,52,1
+Georgia,45,131,328,65,1,Clemson,21,203,88,40,1
+Georgia,35,191,217,44,0,South Carolina,38,271,176,69,2
+Georgia,66,180,367,35,0,Troy,0,169,47,35,2
+Georgia,35,147,289,57,2,Tennessee,32,284,117,49,2
+Georgia,44,202,243,12,1,Vanderbilt,17,188,132,29,1
+Georgia,34,169,210,30,0,Missouri,0,97,50,30,5
+Georgia,45,179,207,101,0,Arkansas,32,296,126,79,4
+Georgia Southern,23,291,173,35,1,North Carolina State,24,192,246,20,1
+Georgia Southern,42,188,348,60,1,Georgia Tech,38,245,283,55,0
+Georgia Southern,28,85,149,10,2,South Alabama,6,335,147,50,2
+Georgia Southern,34,88,408,75,1,Appalachian State,14,256,74,55,2
+Georgia Southern,36,18,419,35,1,New Mexico State,28,334,183,10,4
+Georgia Southern,47,201,349,48,1,Idaho,24,271,94,23,1
+Georgia Southern,69,47,613,39,0,Georgia State,31,408,47,40,3
+Georgia State,31,294,162,59,4,New Mexico State,34,241,194,38,3
+Georgia State,38,414,118,62,1,Air Force,48,224,315,20,0
+Georgia State,14,205,68,25,4,Washington,45,154,182,53,0
+Georgia State,13,287,138,79,0,Louisiana-Lafayette,34,266,195,115,0
+Georgia State,10,198,71,5,2,Arkansas State,52,234,384,40,2
+Georgia State,27,311,90,30,1,South Alabama,30,126,321,82,0
+Georgia State,31,408,47,40,3,Georgia Southern,69,47,613,39,0
+Georgia Tech,38,15,344,35,3,Tulane,21,231,96,69,3
+Georgia Tech,42,188,348,55,0,Georgia Southern,38,245,283,60,1
+Georgia Tech,27,125,250,60,1,Virginia Tech,24,297,127,79,3
+Georgia Tech,28,53,318,69,0,Miami (FL),17,245,107,38,2
+Georgia Tech,25,201,282,69,3,Duke,31,131,242,35,0
+Georgia Tech,43,235,376,32,1,North Carolina,48,390,189,35,1
+Georgia Tech,56,147,465,15,1,Pittsburgh,28,328,198,15,6
+Hawaii,16,162,174,35,0,Washington,17,207,217,36,0
+Hawaii,30,236,100,108,2,Oregon State,38,300,164,99,2
+Hawaii,12,155,131,15,2,Colorado,21,287,118,83,2
+Hawaii,14,117,144,40,2,Rice,28,248,143,40,3
+Hawaii,38,281,232,40,3,Wyoming,28,221,101,40,2
+Hawaii,10,174,90,40,3,San Diego State,20,174,283,44,1
+Hawaii,18,201,102,25,2,Nevada,26,128,299,36,1
+Houston,7,234,-26,47,6,UTSA,27,121,142,115,1
+Houston,25,315,3,103,0,BYU,33,200,323,99,3
+Houston,47,135,399,110,2,UNLV,14,146,170,105,3
+Houston,12,214,117,99,3,UCF,17,101,127,90,1
+Houston,28,188,166,32,3,Memphis,24,243,125,41,5
+Houston,31,268,171,102,0,Temple,10,259,98,93,4
+Idaho,31,324,118,119,3,Louisiana-Monroe,38,384,150,40,1
+Idaho,33,381,45,79,2,Western Michigan,45,240,243,93,0
+Idaho,25,353,65,32,3,Ohio,60,233,272,64,1
+Idaho,10,239,30,59,2,South Alabama,34,196,233,65,2
+Idaho,30,347,176,18,2,Texas State,35,76,390,35,4
+Idaho,24,271,94,23,1,Georgia Southern,47,201,349,48,1
+Idaho,29,226,310,57,2,New Mexico State,17,100,214,39,4
+Illinois,42,456,64,69,3,Western Kentucky,34,297,103,24,3
+Illinois,19,279,72,110,3,Washington,44,219,245,73,1
+Illinois,42,266,219,19,1,Texas State,35,336,139,63,1
+Illinois,14,261,78,53,3,Nebraska,45,166,458,70,2
+Illinois,27,450,65,20,2,Purdue,38,202,349,64,0
+Illinois,28,135,153,50,1,Wisconsin,38,97,401,53,0
+Illinois,28,140,123,36,1,Minnesota,24,240,171,30,3
+Indiana,42,347,235,143,1,Bowling Green,45,395,176,42,2
+Indiana,31,252,241,50,0,Missouri,27,331,172,75,1
+Indiana,15,126,206,55,1,Maryland,37,361,123,83,0
+Indiana,49,230,363,55,1,North Texas,24,205,143,10,2
+Indiana,29,116,316,110,3,Iowa,45,219,207,30,0
+Indiana,17,11,213,25,1,Michigan State,56,332,330,37,1
+Iowa,17,342,113,30,2,Ball State,13,129,90,45,1
+Iowa,17,146,129,50,2,Iowa State,20,255,82,50,1
+Iowa,24,178,133,20,1,Pittsburgh,20,250,185,80,1
+Iowa,24,245,175,14,1,Purdue,10,72,84,19,2
+Iowa,45,219,207,30,0,Indiana,29,116,316,110,3
+Iowa,31,317,116,65,3,Maryland,38,206,212,50,2
+Iowa State,28,214,105,55,1,Kansas State,32,239,232,77,0
+Iowa State,20,255,82,50,1,Iowa,17,146,129,50,2
+Iowa State,28,212,127,45,1,Baylor,49,357,244,78,1
+Iowa State,20,200,122,45,0,Oklahoma State,37,271,129,40,2
+Iowa State,37,351,103,50,0,Toledo,30,189,236,56,0
+Iowa State,45,345,179,59,3,Texas,48,321,191,33,2
+Kansas,3,95,202,74,2,Duke,41,180,331,41,0
+Kansas,24,231,138,65,1,Central Michigan,10,178,101,43,3
+Kansas,0,140,173,52,4,Texas,23,218,111,46,1
+Kansas,14,111,65,117,0,West Virginia,33,302,255,45,3
+Kansas,20,288,91,65,1,Oklahoma,27,161,114,44,2
+Kansas,21,235,118,35,2,Texas Tech,34,288,219,22,2
+Kansas State,32,239,232,77,0,Iowa State,28,214,105,55,1
+Kansas State,14,245,40,0,3,Auburn,20,231,128,46,1
+Kansas State,58,263,181,55,1,UTEP,28,201,59,40,0
+Kansas State,45,290,245,15,1,Texas Tech,13,301,45,89,4
+Kansas State,31,225,160,20,0,Oklahoma,30,335,198,19,2
+Kansas State,23,224,143,25,0,Texas,0,106,90,66,1
+Kent State,14,264,31,44,0,Ohio,17,262,175,5,4
+Kent State,13,213,64,45,1,South Alabama,23,161,186,30,0
+Kent State,0,79,47,62,3,Ohio State,66,344,284,63,3
+Kent State,13,246,34,60,5,Virginia,45,266,254,79,3
+Kent State,14,244,83,27,0,Northern Illinois,17,198,181,81,1
+Kent State,17,191,150,80,1,Massachusetts,40,286,196,105,0
+Kent State,17,360,107,53,1,Army,39,35,295,38,1
+Kent State,3,206,79,17,1,Miami (OH),10,120,167,62,0
+Kentucky,20,170,232,46,0,Ohio,3,149,74,45,1
+Kentucky,30,369,81,61,3,Florida,36,295,237,78,1
+Kentucky,17,201,183,55,3,Vanderbilt,7,85,54,10,3
+Kentucky,45,208,239,80,1,South Carolina,38,218,282,353,3
+Kentucky,48,216,136,54,1,Louisiana-Monroe,14,187,77,41,3
+Kentucky,3,146,71,55,0,LSU,41,120,303,80,1
+Louisiana Tech,16,191,54,32,1,Oklahoma,48,253,183,34,2
+Louisiana Tech,48,295,238,35,0,Louisiana-Lafayette,20,237,178,36,3
+Louisiana Tech,42,260,98,73,1,North Texas,21,175,104,90,2
+Louisiana Tech,17,216,105,40,2,Auburn,45,219,254,51,0
+Louisiana Tech,27,187,256,35,2,UTEP,20,143,81,22,5
+Louisiana Tech,27,157,121,85,1,UTSA,20,190,134,85,4
+Louisiana Tech,31,423,30,40,2,Southern Miss,20,379,-31,83,2
+Louisiana-Lafayette,20,237,178,36,3,Louisiana Tech,48,295,238,35,0
+Louisiana-Lafayette,15,129,193,0,4,Ole Miss,56,340,214,30,1
+Louisiana-Lafayette,9,174,67,40,1,Boise State,34,237,262,60,0
+Louisiana-Lafayette,34,266,195,115,0,Georgia State,13,287,138,79,0
+Louisiana-Lafayette,34,240,276,35,1,Texas State,10,176,94,20,2
+Louisiana-Lafayette,55,102,419,83,0,Arkansas State,40,342,253,51,1
+Louisiana-Monroe,17,189,163,25,1,Wake Forest,10,97,-3,51,1
+Louisiana-Monroe,38,384,150,40,1,Idaho,31,324,118,119,3
+Louisiana-Monroe,0,77,16,45,1,LSU,31,153,219,54,1
+Louisiana-Monroe,22,328,29,0,1,Troy,20,270,81,45,1
+Louisiana-Monroe,14,276,72,69,2,Arkansas State,28,284,288,110,3
+Louisiana-Monroe,14,187,77,41,3,Kentucky,48,216,136,54,1
+Louisiana-Monroe,18,250,141,34,1,Texas State,22,141,229,55,0
+Louisville,31,206,130,57,2,Miami (FL),13,244,174,46,3
+Louisville,21,203,79,50,4,Virginia,23,171,114,46,3
+Louisville,34,324,12,36,0,Florida International,3,117,88,60,2
+Louisville,20,206,215,89,3,Wake Forest,10,122,-22,45,3
+Louisville,28,174,178,75,2,Syracuse,6,201,59,75,2
+Louisville,17,212,52,64,2,Clemson,23,157,72,14,2
+Louisville,30,203,166,33,0,North Carolina State,18,223,128,20,1
+LSU,28,239,126,50,1,Wisconsin,24,50,268,26,2
+LSU,31,153,219,54,1,Louisiana-Monroe,0,77,16,45,1
+LSU,63,200,363,35,4,New Mexico State,7,102,172,35,4
+LSU,29,341,89,28,1,Mississippi State,34,268,302,41,2
+LSU,7,142,138,31,0,Auburn,41,268,298,80,1
+LSU,41,120,303,80,1,Kentucky,3,146,71,55,0
+LSU,30,110,195,80,0,Florida,27,183,123,34,3
+LSU,10,142,264,45,4,Ole Miss,7,176,137,22,1
+Marshall,42,261,171,98,1,Miami (OH),27,318,100,107,1
+Marshall,44,448,257,60,1,Ohio,14,236,141,75,2
+Marshall,48,242,284,188,1,Akron,17,251,92,94,4
+Marshall,56,237,354,54,3,Old Dominion,14,85,201,9,1
+Marshall,49,337,252,101,2,Middle Tennessee,24,201,169,101,2
+Marshall,45,214,243,65,1,Florida International,13,208,177,88,2
+Marshall,35,218,328,60,0,Florida Atlantic,16,179,209,45,0
+Maryland,24,201,116,35,6,South Florida,17,174,83,39,1
+Maryland,37,284,163,71,1,West Virginia,40,511,183,40,4
+Maryland,34,280,89,75,0,Syracuse,20,219,317,69,2
+Maryland,37,361,123,83,0,Indiana,15,126,206,55,1
+Maryland,24,244,66,23,4,Ohio State,52,264,269,66,0
+Maryland,38,206,212,50,2,Iowa,31,317,116,65,3
+Maryland,7,129,46,45,1,Wisconsin,52,216,311,20,1
+Massachusetts,7,147,55,23,1,Boston College,30,173,338,55,1
+Massachusetts,38,267,105,85,1,Colorado,41,318,156,123,1
+Massachusetts,31,258,88,10,1,Vanderbilt,34,150,160,77,1
+Massachusetts,7,263,3,30,1,Penn State,48,236,228,52,0
+Massachusetts,42,589,49,30,4,Bowling Green,47,443,225,112,3
+Massachusetts,41,389,165,60,4,Miami (OH),42,437,120,95,1
+Massachusetts,40,286,196,105,0,Kent State,17,191,150,80,1
+Massachusetts,36,337,225,55,3,Eastern Michigan,14,147,133,92,1
+Massachusetts,35,445,52,75,2,Toledo,42,225,295,81,2
+Memphis,35,305,164,110,0,UCLA,42,396,144,85,1
+Memphis,36,219,261,35,1,Middle Tennessee,17,237,88,36,3
+Memphis,3,81,23,105,2,Ole Miss,24,248,178,117,4
+Memphis,41,311,299,72,0,Cincinnati,14,255,97,55,2
+Memphis,24,243,125,41,5,Houston,28,188,166,32,3
+Memphis,48,352,230,60,1,SMU,10,114,137,69,2
+Miami (FL),13,244,174,46,3,Louisville,31,206,130,57,2
+Miami (FL),41,342,146,93,2,Arkansas State,20,236,93,84,2
+Miami (FL),31,359,76,82,3,Nebraska,41,113,343,69,2
+Miami (FL),22,223,203,93,2,Duke,10,179,85,50,3
+Miami (FL),17,245,107,38,2,Georgia Tech,28,53,318,69,0
+Miami (FL),55,286,335,155,1,Cincinnati,34,355,67,54,3
+Miami (FL),30,92,364,28,0,Virginia Tech,6,142,120,40,3
+Miami (OH),27,318,100,107,1,Marshall,42,261,171,98,1
+Miami (OH),10,165,33,40,1,Michigan,34,184,276,20,3
+Miami (OH),24,262,102,38,3,Cincinnati,31,271,99,30,2
+Miami (OH),27,238,133,55,0,Buffalo,35,302,273,58,0
+Miami (OH),42,437,120,95,1,Massachusetts,41,389,165,60,4
+Miami (OH),19,352,0,102,3,Akron,29,167,151,74,2
+Miami (OH),41,346,168,56,0,Northern Illinois,51,225,433,43,1
+Miami (OH),10,120,167,62,0,Kent State,3,206,79,17,1
+Michigan,52,210,350,44,1,Appalachian State,14,127,153,69,0
+Michigan,0,189,100,50,4,Notre Dame,31,226,54,20,0
+Michigan,34,184,276,20,3,Miami (OH),10,165,33,40,1
+Michigan,10,190,118,20,4,Utah,26,205,81,50,1
+Michigan,14,88,83,23,2,Minnesota,30,167,206,65,0
+Michigan,24,178,158,30,1,Rutgers,26,402,74,85,0
+Michigan,18,192,64,30,1,Penn State,13,160,43,23,1
+Michigan,11,125,61,27,3,Michigan State,35,227,219,88,2
+Michigan State,27,343,123,38,2,Oregon,46,318,173,70,0
+Michigan State,73,160,336,25,1,Eastern Michigan,14,115,20,38,6
+Michigan State,56,195,338,84,0,Wyoming,14,188,98,43,3
+Michigan State,27,234,188,94,3,Nebraska,22,282,47,48,4
+Michigan State,45,238,294,55,1,Purdue,31,211,129,21,2
+Michigan State,56,332,330,37,1,Indiana,17,11,213,25,1
+Michigan State,35,227,219,88,2,Michigan,11,125,61,27,3
+Middle Tennessee,24,255,190,80,3,Minnesota,35,67,284,24,1
+Middle Tennessee,50,218,323,62,0,Western Kentucky,47,593,125,92,1
+Middle Tennessee,17,237,88,36,3,Memphis,36,219,261,35,1
+Middle Tennessee,41,259,280,85,2,Old Dominion,28,362,31,25,4
+Middle Tennessee,37,344,239,49,1,Southern Miss,31,426,111,48,2
+Middle Tennessee,24,201,169,101,2,Marshall,49,337,252,101,2
+Middle Tennessee,43,141,229,70,0,UAB,22,185,220,90,3
+Minnesota,35,67,284,24,1,Middle Tennessee,24,255,190,80,3
+Minnesota,3,169,99,40,5,TCU,30,258,169,72,2
+Minnesota,24,7,380,80,2,San Jose State,7,186,68,0,5
+Minnesota,30,167,206,65,0,Michigan,14,88,83,23,2
+Minnesota,24,153,121,47,1,Northwestern,17,269,124,41,1
+Minnesota,39,165,285,66,1,Purdue,38,153,298,55,2
+Minnesota,24,240,171,30,3,Illinois,28,140,123,36,1
+Mississippi State,49,349,201,30,2,Southern Miss,0,283,212,37,3
+Mississippi State,47,224,292,32,1,UAB,34,435,113,27,1
+Mississippi State,35,226,288,70,2,South Alabama,3,288,57,12,4
+Mississippi State,34,268,302,41,2,LSU,29,341,89,28,1
+Mississippi State,48,279,280,20,2,Texas A&M,31,365,161,38,3
+Mississippi State,38,246,223,50,4,Auburn,23,209,232,56,4
+Mississippi State,45,216,326,20,1,Kentucky,31,401,103,25,1
+Missouri,49,325,177,25,2,Toledo,24,256,154,60,2
+Missouri,38,144,178,47,1,UCF,10,209,90,53,4
+Missouri,27,331,172,75,1,Indiana,31,252,241,50,0
+Missouri,21,132,148,74,0,South Carolina,20,219,119,71,0
+Missouri,0,97,50,30,5,Georgia,34,169,210,30,0
+Missouri,42,20,99,74,6,Florida,13,148,135,39,1
+Missouri,24,141,244,100,0,Vanderbilt,14,196,44,41,1
+Navy,21,142,251,55,2,Air Force,30,166,198,65,0
+Navy,17,20,370,20,1,Ohio State,34,226,194,20,1
+Navy,24,231,171,32,1,Rutgers,31,151,284,24,1
+Navy,35,117,352,50,1,Texas State,21,231,211,112,1
+Navy,27,55,412,25,2,Western Kentucky,36,387,164,66,1
+Navy,31,30,487,15,3,Temple,24,240,156,56,2
+Navy,41,56,423,0,1,San Jose State,31,322,100,20,1
+Nebraska,22,282,47,48,4,Michigan State,27,234,188,94,3
+Nebraska,55,286,498,60,0,Florida Atlantic,7,95,105,22,0
+Nebraska,55,282,280,61,1,Fresno State,19,241,105,55,0
+Nebraska,41,113,343,69,2,Miami (FL),31,359,76,82,3
+Nebraska,45,166,458,70,2,Illinois,14,261,78,53,3
+Nebraska,38,237,234,83,0,Northwestern,17,173,171,50,1
+Nebraska,42,163,292,35,2,Rutgers,24,205,143,26,1
+Nevada,24,110,214,90,0,Washington State,13,389,38,72,2
+Nevada,28,321,108,74,0,Arizona,35,278,229,47,1
+Nevada,21,64,192,56,0,San Jose State,10,276,170,95,3
+Nevada,46,306,156,22,4,Boise State,51,346,224,63,3
+Nevada,24,297,160,45,1,Colorado State,31,326,119,25,1
+Nevada,35,285,126,36,0,BYU,42,408,193,75,3
+Nevada,26,128,299,36,1,Hawaii,18,201,102,25,2
+New Mexico,21,67,410,25,3,UTEP,34,116,330,10,0
+New Mexico,23,130,207,73,3,Arizona State,68,198,423,30,1
+New Mexico,38,67,432,54,1,New Mexico State,35,333,187,35,2
+New Mexico,24,97,285,59,0,Fresno State,35,321,272,27,2
+New Mexico,21,87,283,30,0,UTSA,9,229,112,35,2
+New Mexico,14,111,152,57,1,San Diego State,24,73,397,102,4
+New Mexico,31,33,367,15,2,Air Force,35,159,269,5,1
+New Mexico State,34,241,194,38,3,Georgia State,31,294,162,59,4
+New Mexico State,24,335,90,17,2,UTEP,42,126,344,43,1
+New Mexico State,35,333,187,35,2,New Mexico,38,67,432,54,1
+New Mexico State,7,102,172,35,4,LSU,63,200,363,35,4
+New Mexico State,28,334,183,35,4,Georgia Southern,36,18,419,10,1
+New Mexico State,24,272,123,12,4,Troy,41,211,360,49,2
+New Mexico State,17,100,214,39,4,Idaho,29,226,310,57,2
+North Carolina,31,263,131,37,1,San Diego State,27,341,168,65,3
+North Carolina,41,294,145,85,1,East Carolina,70,446,343,74,1
+North Carolina,35,394,84,130,1,Clemson,50,436,92,19,1
+North Carolina,17,198,125,62,3,Virginia Tech,34,186,171,45,1
+North Carolina,43,326,184,95,2,Notre Dame,50,300,219,76,3
+North Carolina,48,390,189,35,1,Georgia Tech,43,235,376,32,1
+North Carolina,28,275,99,45,1,Virginia,27,284,159,83,2
+North Carolina State,24,291,173,20,1,Georgia Southern,23,192,246,35,1
+North Carolina State,46,253,242,5,0,Old Dominion,34,308,196,20,1
+North Carolina State,49,274,315,38,2,South Florida,17,89,70,40,3
+North Carolina State,41,359,161,83,4,Florida State,56,365,166,58,2
+North Carolina State,0,35,119,45,3,Clemson,41,267,226,97,0
+North Carolina State,14,174,43,20,2,Boston College,30,101,310,30,1
+North Carolina State,18,223,128,20,1,Louisville,30,203,166,33,0
+North Texas,7,15,79,56,4,Texas,38,190,163,65,2
+North Texas,43,108,245,139,0,SMU,6,266,10,60,5
+North Texas,21,175,104,90,2,Louisiana Tech,42,260,98,73,1
+North Texas,24,205,143,10,2,Indiana,49,230,363,55,1
+North Texas,21,291,163,30,5,UAB,56,320,128,15,0
+North Texas,20,287,108,55,0,Southern Miss,30,305,201,70,2
+North Texas,21,190,26,40,2,Rice,41,233,188,50,0
+Northern Illinois,23,180,221,75,0,Northwestern,15,322,72,93,1
+Northern Illinois,48,285,331,86,1,UNLV,34,397,102,32,1
+Northern Illinois,14,180,123,67,1,Arkansas,52,215,212,30,0
+Northern Illinois,17,198,181,81,1,Kent State,14,244,83,27,0
+Northern Illinois,17,231,110,34,1,Central Michigan,34,269,283,29,1
+Northern Illinois,51,225,433,43,1,Miami (OH),41,346,168,56,0
+Northern Illinois,28,54,332,37,0,Eastern Michigan,17,124,257,80,1
+Northwestern,24,246,108,0,2,California,31,300,114,59,2
+Northwestern,15,322,72,93,1,Northern Illinois,23,180,221,75,0
+Northwestern,29,258,103,75,1,Penn State,6,216,50,35,2
+Northwestern,20,182,203,20,0,Wisconsin,14,138,284,49,4
+Northwestern,17,269,124,41,1,Minnesota,24,153,121,47,1
+Northwestern,17,173,171,50,1,Nebraska,38,237,234,83,0
+Notre Dame,48,295,281,10,0,Rice,17,226,141,30,2
+Notre Dame,31,226,54,20,0,Michigan,0,189,100,30,4
+Notre Dame,30,259,139,43,1,Purdue,14,234,56,41,3
+Notre Dame,31,362,161,80,5,Syracuse,15,294,135,85,1
+Notre Dame,17,241,129,10,2,Stanford,14,158,47,66,2
+Notre Dame,50,300,219,76,3,North Carolina,43,326,184,95,2
+Notre Dame,27,313,157,67,2,Florida State,31,273,50,84,1
+Ohio,17,262,175,5,4,Kent State,14,264,31,44,0
+Ohio,3,149,74,45,1,Kentucky,20,170,232,46,0
+Ohio,14,236,141,75,2,Marshall,44,448,257,60,1
+Ohio,60,233,272,64,1,Idaho,25,353,65,32,3
+Ohio,10,98,89,18,0,Central Michigan,28,233,234,50,1
+Ohio,13,386,127,75,2,Bowling Green,31,260,95,153,1
+Ohio,23,197,159,120,2,Akron,20,268,84,83,3
+Ohio,21,284,88,48,2,Western Michigan,42,344,186,36,3
+Ohio State,34,226,194,20,1,Navy,17,226,370,20,1
+Ohio State,21,219,108,62,3,Virginia Tech,35,199,125,107,3
+Ohio State,66,344,284,63,3,Kent State,0,79,47,62,3
+Ohio State,50,330,380,40,1,Cincinnati,28,352,70,40,0
+Ohio State,52,264,269,66,0,Maryland,24,244,66,23,4
+Ohio State,56,261,324,28,1,Rutgers,17,196,149,0,3
+Ohio State,31,74,219,70,2,Penn State,24,224,16,42,2
+Oklahoma,48,253,183,34,2,Louisiana Tech,16,191,54,32,1
+Oklahoma,52,319,261,60,0,Tulsa,7,234,91,62,4
+Oklahoma,34,308,146,41,2,Tennessee,10,201,112,10,3
+Oklahoma,45,209,301,82,1,West Virginia,33,376,137,55,3
+Oklahoma,33,309,152,73,2,TCU,37,318,151,90,3
+Oklahoma,31,129,103,20,0,Texas,26,334,148,85,1
+Oklahoma,30,335,198,19,2,Kansas State,31,225,160,20,0
+Oklahoma State,31,203,161,70,2,Florida State,37,370,106,71,2
+Oklahoma State,43,315,162,45,0,UTSA,13,133,73,74,1
+Oklahoma State,45,370,158,129,2,Texas Tech,35,394,118,158,3
+Oklahoma State,37,271,129,40,2,Iowa State,20,200,122,45,0
+Oklahoma State,27,161,114,44,2,Kansas,20,288,91,65,1
+Oklahoma State,9,132,126,23,2,TCU,42,415,261,45,1
+Oklahoma State,10,242,194,30,2,West Virginia,34,238,210,57,0
+Old Dominion,34,308,196,20,1,North Carolina State,46,253,242,5,0
+Old Dominion,17,187,180,45,2,Eastern Michigan,3,72,143,47,2
+Old Dominion,45,430,100,55,0,Rice,42,242,284,50,0
+Old Dominion,28,362,31,25,4,Middle Tennessee,41,259,280,85,2
+Old Dominion,14,85,201,9,1,Marshall,56,237,354,54,3
+Old Dominion,35,196,161,35,0,UTEP,42,152,313,58,0
+Old Dominion,51,471,172,51,3,Western Kentucky,66,371,230,40,2
+Ole Miss,35,387,71,78,3,Boise State,13,264,135,72,4
+Ole Miss,41,367,180,35,1,Vanderbilt,3,60,107,53,1
+Ole Miss,56,340,214,30,1,Louisiana-Lafayette,15,129,193,0,4
+Ole Miss,24,248,178,117,4,Memphis,3,81,23,105,2
+Ole Miss,23,251,76,25,1,Alabama,17,228,168,52,2
+Ole Miss,35,178,160,20,0,Texas A&M,20,401,54,52,3
+Ole Miss,34,203,180,49,0,Tennessee,3,191,0,23,4
+Ole Miss,7,176,137,22,1,LSU,10,142,264,45,4
+Oregon,46,318,173,70,0,Michigan State,27,343,123,38,2
+Oregon,48,293,263,30,0,Wyoming,14,284,155,48,3
+Oregon,38,329,172,86,0,Washington State,31,436,63,54,2
+Oregon,24,302,144,78,2,Arizona,31,287,208,79,2
+Oregon,42,210,258,37,0,UCLA,30,225,328,81,2
+Oregon,45,336,218,90,0,Washington,20,184,133,24,2
+Oregon,59,326,264,106,2,California,41,367,193,111,2
+Oregon State,38,300,164,99,2,Hawaii,30,236,100,108,2
+Oregon State,28,275,97,52,2,San Diego State,7,106,109,65,2
+Oregon State,10,123,58,108,2,USC,35,261,200,124,0
+Oregon State,36,278,167,42,0,Colorado,31,308,123,67,1
+Oregon State,23,272,119,75,2,Utah,29,62,253,67,2
+Oregon State,14,209,12,67,0,Stanford,38,287,151,20,2
+Penn State,26,454,57,90,3,UCF,24,222,24,47,1
+Penn State,21,319,106,25,3,Akron,3,208,69,64,0
+Penn State,13,309,64,40,1,Rutgers,10,192,102,75,5
+Penn State,48,236,238,52,0,Massachusetts,7,263,3,30,1
+Penn State,6,216,50,35,2,Northwestern,29,258,103,75,1
+Penn State,13,160,54,23,1,Michigan,18,192,64,30,1
+Penn State,24,224,16,42,2,Ohio State,31,74,219,70,2
+Pittsburgh,30,111,303,55,1,Boston College,20,134,142,25,2
+Pittsburgh,45,101,321,40,3,Florida International,25,236,57,68,1
+Pittsburgh,20,250,185,80,1,Iowa,24,178,133,20,1
+Pittsburgh,10,220,129,55,2,Akron,21,213,169,64,1
+Pittsburgh,19,195,116,75,1,Virginia,24,121,225,65,1
+Pittsburgh,21,121,210,70,2,Virginia Tech,16,265,26,45,1
+Pittsburgh,28,328,198,15,6,Georgia Tech,56,147,465,15,1
+Purdue,43,181,226,52,0,Western Michigan,34,243,213,35,1
+Purdue,17,204,122,69,3,Central Michigan,38,172,161,5,1
+Purdue,14,234,56,41,3,Notre Dame,30,259,139,43,1
+Purdue,10,72,84,19,2,Iowa,24,245,175,14,1
+Purdue,45,166,458,70,2,Illinois,14,261,78,53,3
+Purdue,38,202,349,64,0,Michigan State,27,450,65,20,2
+Purdue,38,153,298,55,2,Minnesota,39,165,285,66,1
+Rice,17,226,141,30,2,Notre Dame,48,295,281,10,0
+Rice,10,241,240,66,0,Texas A&M,38,309,168,60,1
+Rice,42,242,284,50,0,Old Dominion,45,430,100,55,0
+Rice,41,178,217,65,1,Southern Miss,23,283,40,55,3
+Rice,28,248,143,40,3,Hawaii,14,117,144,40,2
+Rice,41,209,182,41,0,Army,21,91,250,24,2
+Rice,41,233,188,50,0,North Texas,21,190,26,40,2
+Rutgers,41,281,215,78,1,Washington State,38,532,6,77,2
+Rutgers,10,192,102,75,5,Penn State,13,309,64,40,1
+Rutgers,31,151,284,24,1,Navy,24,231,171,32,1
+Rutgers,31,291,171,30,1,Tulane,6,152,152,62,0
+Rutgers,26,402,74,85,0,Michigan,24,178,158,30,1
+Rutgers,17,196,149,0,3,Ohio State,56,261,324,28,1
+Rutgers,24,205,143,26,1,Nebraska,42,163,292,35,2
+San Diego State,27,341,168,65,3,North Carolina,31,263,131,37,1
+San Diego State,7,106,109,65,2,Oregon State,28,275,97,52,2
+San Diego State,34,209,257,66,0,UNLV,17,346,109,72,2
+San Diego State,13,84,186,64,3,Fresno State,24,143,172,37,2
+San Diego State,24,73,397,102,4,New Mexico,14,111,152,57,1
+San Diego State,20,174,283,44,1,Hawaii,10,174,90,40,3
+San Jose State,13,254,65,66,3,Auburn,59,135,358,45,2
+San Jose State,7,186,68,0,5,Minnesota,24,7,380,80,2
+San Jose State,10,276,170,95,3,Nevada,21,64,192,56,0
+San Jose State,33,265,277,45,1,UNLV,10,116,105,15,1
+San Jose State,27,322,149,40,2,Wyoming,20,119,158,72,0
+San Jose State,31,322,100,20,1,Navy,41,56,423,0,1
+SMU,0,91,-24,40,3,Baylor,45,313,261,96,2
+SMU,6,266,10,60,5,North Texas,43,108,245,139,0
+SMU,6,139,102,75,0,Texas A&M,58,395,268,53,1
+SMU,0,156,89,50,3,TCU,56,349,265,48,0
+SMU,24,339,51,15,1,East Carolina,45,410,171,53,1
+SMU,3,178,98,74,4,Cincinnati,41,268,240,69,0
+SMU,10,114,137,69,2,Memphis,48,352,230,60,1
+South Alabama,23,161,186,30,0,Kent State,13,213,64,45,1
+South Alabama,3,288,57,12,4,Mississippi State,35,226,288,70,2
+South Alabama,6,335,147,50,2,Georgia Southern,28,85,149,10,2
+South Alabama,34,196,233,65,2,Idaho,10,239,30,59,2
+South Alabama,47,339,243,124,0,Appalachian State,21,191,203,77,3
+South Alabama,30,126,321,82,0,Georgia State,27,311,90,30,1
+South Alabama,27,106,296,78,0,Troy,13,145,164,100,0
+South Carolina,28,366,67,21,1,Texas A&M,52,511,169,95,0
+South Carolina,33,266,175,60,1,East Carolina,23,321,132,40,2
+South Carolina,38,271,176,69,2,Georgia,35,191,217,44,0
+South Carolina,48,237,212,35,1,Vanderbilt,34,223,156,75,2
+South Carolina,20,219,119,71,0,Missouri,21,132,148,74,0
+South Carolina,38,218,282,353,3,Kentucky,45,208,239,80,1
+South Carolina,35,416,119,53,3,Auburn,42,156,395,20,1
+South Florida,17,174,83,39,1,Maryland,24,201,116,35,6
+South Florida,17,89,70,40,3,North Carolina State,49,274,315,38,2
+South Florida,17,113,158,45,1,Connecticut,14,88,44,48,1
+South Florida,10,173,72,90,2,Wisconsin,27,160,294,35,1
+South Florida,17,257,93,59,1,East Carolina,28,250,231,148,1
+South Florida,38,272,140,77,2,Tulsa,30,314,174,114,1
+South Florida,17,239,42,95,4,Cincinnati,34,317,273,37,3
+Southern Miss,0,283,212,37,3,Mississippi State,49,349,201,30,2
+Southern Miss,12,207,56,50,0,Alabama,52,214,333,25,1
+Southern Miss,21,268,61,103,2,Appalachian State,20,264,191,59,3
+Southern Miss,23,283,40,55,3,Rice,41,178,217,65,1
+Southern Miss,31,426,111,48,2,Middle Tennessee,37,344,239,49,1
+Southern Miss,30,305,201,70,2,North Texas,20,287,108,55,0
+Southern Miss,20,379,-31,83,2,Louisiana Tech,31,423,30,40,2
+Stanford,10,285,128,68,2,USC,13,135,156,87,0
+Stanford,35,216,199,30,1,Army,0,9,198,20,2
+Stanford,20,178,187,85,3,Washington,13,98,81,84,0
+Stanford,14,158,47,66,2,Notre Dame,17,241,129,10,2
+Stanford,34,284,193,80,1,Washington State,17,292,-26,75,1
+Stanford,10,212,76,36,2,Arizona State,26,356,114,9,0
+Stanford,38,287,151,20,2,Oregon State,14,209,12,67,0
+Syracuse,40,174,289,41,0,Central Michigan,3,183,34,49,2
+Syracuse,20,219,317,69,2,Maryland,34,280,89,75,0
+Syracuse,15,294,135,85,1,Notre Dame,31,362,161,80,5
+Syracuse,6,201,59,75,2,Louisville,28,174,178,75,2
+Syracuse,20,256,156,64,3,Florida State,38,317,165,36,2
+Syracuse,30,171,199,55,0,Wake Forest,7,99,71,35,2
+Syracuse,6,88,82,30,3,Clemson,16,209,166,15,4
+TCU,30,258,169,72,2,Minnesota,7,169,99,40,5
+TCU,56,349,265,48,0,SMU,0,156,89,50,3
+TCU,37,318,151,90,3,Oklahoma,33,309,152,32,2
+TCU,58,346,139,110,1,Baylor,61,510,272,117,3
+TCU,42,415,261,45,1,Oklahoma State,9,132,126,23,2
+TCU,82,480,305,77,0,Texas Tech,27,345,101,69,4
+Temple,37,207,144,23,2,Vanderbilt,7,224,54,66,7
+Temple,24,240,156,56,2,Navy,31,30,487,15,3
+Temple,36,231,41,57,1,Connecticut,10,174,133,70,3
+Temple,35,294,203,30,2,Tulsa,24,260,178,108,0
+Temple,10,259,98,93,4,Houston,31,268,171,102,0
+Temple,14,150,32,68,4,UCF,34,336,130,58,2
+Tennessee,38,273,110,40,0,Utah State,7,144,100,42,3
+Tennessee,34,247,168,14,1,Arkansas State,19,190,141,75,1
+Tennessee,10,201,112,10,3,Oklahoma,34,308,146,41,2
+Tennessee,32,284,117,49,2,Georgia,35,147,289,57,2
+Tennessee,9,205,28,49,3,Florida,10,76,156,45,3
+Tennessee,3,191,0,23,4,Ole Miss,34,203,180,49,0
+Tennessee,20,202,181,33,2,Alabama,34,286,183,50,2
+Texas,38,190,163,65,2,North Texas,7,15,79,56,4
+Texas,7,176,82,64,4,BYU,41,181,248,40,2
+Texas,17,196,126,50,0,UCLA,20,226,217,51,1
+Texas,23,218,111,46,1,Kansas,0,140,173,52,4
+Texas,7,144,190,45,3,Baylor,28,111,278,95,0
+Texas,26,334,148,85,1,Oklahoma,31,129,103,20,0
+Texas,0,106,90,66,1,Kansas State,23,224,143,25,0
+Texas,48,321,191,33,2,Iowa State,45,345,179,59,3
+Texas A&M,52,511,169,95,0,South Carolina,28,366,67,21,1
+Texas A&M,38,309,168,60,1,Rice,10,241,240,66,0
+Texas A&M,58,395,268,53,1,SMU,6,139,102,75,0
+Texas A&M,35,386,137,70,1,Arkansas,28,199,285,76,1
+Texas A&M,31,365,161,38,3,Mississippi State,48,279,280,20,2
+Texas A&M,20,401,54,52,3,Ole Miss,35,178,160,20,0
+Texas A&M,0,141,31,6,1,Alabama,59,304,298,0,0
+Texas State,21,231,211,112,1,Navy,35,117,352,50,1
+Texas State,35,336,139,63,1,Illinois,42,266,219,19,1
+Texas State,37,228,181,77,0,Tulsa,34,234,200,34,1
+Texas State,35,76,390,35,4,Idaho,30,347,176,18,2
+Texas State,10,176,94,20,2,Louisiana-Lafayette,34,240,276,35,1
+Texas State,22,141,229,55,0,Louisiana-Monroe,18,250,141,34,1
+Texas Tech,30,278,226,90,1,UTEP,26,116,268,40,0
+Texas Tech,28,252,101,60,2,Arkansas,49,61,438,15,3
+Texas Tech,35,394,118,158,3,Oklahoma State,49,370,158,129,2
+Texas Tech,13,301,46,89,4,Kansas State,45,290,245,15,1
+Texas Tech,34,348,217,115,1,West Virginia,37,301,249,63,1
+Texas Tech,34,288,219,22,2,Kansas,21,235,118,35,2
+Texas Tech,27,345,101,69,4,TCU,82,480,305,77,0
+Toledo,24,256,154,60,2,Missouri,49,325,177,25,2
+Toledo,34,323,240,65,1,Cincinnati,58,436,148,20,0
+Toledo,34,152,318,37,2,Ball State,23,176,175,40,0
+Toledo,42,339,204,47,2,Central Michigan,28,291,95,35,2
+Toledo,20,219,234,35,3,Western Michigan,19,388,62,30,0
+Toledo,30,189,236,56,0,Iowa State,37,351,103,50,0
+Toledo,42,225,295,81,2,Massachusetts,35,445,52,75,2
+Troy,10,201,71,55,1,UAB,48,490,152,35,2
+Troy,17,238,158,55,0,Duke,34,270,182,43,0
+Troy,0,169,47,35,2,Georgia,66,180,367,35,0
+Troy,20,270,81,45,1,Louisiana-Monroe,22,328,29,0,1
+Troy,41,211,360,49,2,New Mexico State,24,272,123,12,4
+Troy,14,229,79,89,4,Appalachian State,53,110,441,52,1
+Troy,13,145,164,100,0,South Alabama,27,106,296,78,0
+Tulane,31,262,254,96,2,Tulsa,38,435,154,90,2
+Tulane,21,231,96,69,3,Georgia Tech,38,15,344,35,3
+Tulane,13,160,230,92,5,Duke,47,181,256,80,2
+Tulane,6,152,152,62,0,Rutgers,31,291,171,30,1
+Tulane,12,135,167,64,0,Connecticut,3,141,76,15,3
+Tulane,13,147,131,84,2,UCF,20,139,94,67,4
+Tulsa,38,435,154,90,2,Tulane,31,262,254,96,2
+Tulsa,7,234,91,62,4,Oklahoma,52,319,261,60,0
+Tulsa,21,269,94,25,3,Florida Atlantic,50,341,177,37,0
+Tulsa,34,234,200,34,1,Texas State,37,228,181,77,0
+Tulsa,17,263,127,30,3,Colorado State,41,298,234,74,2
+Tulsa,24,260,178,108,0,Temple,35,294,203,30,2
+Tulsa,30,314,174,114,1,South Florida,38,272,140,77,2
+UAB,48,490,152,35,2,Troy,10,201,71,55,1
+UAB,34,435,113,27,1,Mississippi State,47,224,292,32,1
+UAB,20,196,184,40,6,Florida International,34,204,93,65,0
+UAB,42,300,291,55,3,Western Kentucky,39,219,184,50,0
+UAB,56,320,128,15,0,North Texas,21,291,163,30,5
+UAB,22,185,220,90,3,Middle Tennessee,34,141,229,70,0
+UAB,17,195,62,10,1,Arkansas,45,211,273,9,1
+UCF,24,222,24,47,1,Penn State,26,454,57,90,3
+UCF,10,209,90,53,4,Missouri,38,144,178,47,1
+UCF,17,101,127,90,1,Houston,12,214,117,99,3
+UCF,31,326,63,44,4,BYU,24,153,189,71,2
+UCF,20,139,94,67,4,Tulane,13,147,131,84,2
+UCF,34,336,130,58,2,Temple,14,150,32,68,4
+UCLA,36,330,237,63,3,California,34,310,56,40,1
+UCLA,28,266,120,87,2,Virginia,20,242,116,20,3
+UCLA,42,396,144,85,1,Memphis,35,305,164,110,0
+UCLA,20,226,217,51,1,Texas,17,196,126,50,0
+UCLA,62,355,225,78,0,Arizona State,27,488,138,59,4
+UCLA,28,269,137,29,1,Utah,30,100,242,40,0
+UCLA,30,225,328,81,2,Oregon,42,210,258,37,0
+UCLA,40,200,309,121,1,Colorado,37,267,233,50,2
+UNLV,13,252,119,64,1,Arizona,58,434,353,63,0
+UNLV,34,397,102,42,1,Northern Illinois,38,285,331,95,1
+UNLV,14,146,170,105,3,Houston,47,135,399,110,2
+UNLV,17,346,109,72,2,San Diego State,34,209,257,66,0
+UNLV,10,116,105,15,1,San Jose State,33,265,277,45,1
+UNLV,30,332,146,52,1,Fresno State,27,310,177,80,3
+UNLV,20,267,115,35,3,Utah State,34,266,178,60,1
+USC,52,424,277,76,2,Fresno State,13,160,157,47,4
+USC,13,135,156,87,0,Stanford,10,285,128,68,2
+USC,31,317,20,20,0,Boston College,37,54,452,25,1
+USC,35,261,200,124,0,Oregon State,10,123,58,108,2
+USC,34,273,220,60,0,Arizona State,38,510,31,36,0
+USC,28,185,239,106,2,Arizona,26,395,77,35,1
+USC,56,319,213,85,1,Colorado,28,231,172,61,2
+USC,21,264,100,48,2,Utah,24,194,137,25,2
+Utah,59,268,258,118,0,Fresno State,27,283,55,55,1
+Utah,26,205,81,50,1,Michigan,10,190,118,20,4
+Utah,27,165,192,78,1,Washington State,28,417,78,40,3
+Utah,30,100,242,40,0,UCLA,28,269,137,29,1
+Utah,29,62,253,67,2,Oregon State,23,272,119,75,2
+Utah,24,194,137,25,2,USC,21,264,100,48,2
+Utah State,7,144,100,42,3,Tennessee,38,273,110,40,0
+Utah State,36,331,60,65,3,Wake Forest,24,257,-25,103,3
+Utah State,14,268,145,100,1,Arkansas State,21,190,126,62,4
+Utah State,35,321,136,105,1,BYU,20,271,154,60,4
+Utah State,34,311,77,43,1,Air Force,16,224,155,30,4
+Utah State,13,160,100,45,1,Colorado State,16,243,75,116,0
+Utah State,34,266,178,60,1,UNLV,20,267,115,35,3
+UTEP,34,116,330,10,0,New Mexico,21,67,410,25,3
+UTEP,26,116,268,40,0,Texas Tech,30,278,226,90,1
+UTEP,42,126,344,43,1,New Mexico State,24,335,90,17,2
+UTEP,28,201,59,40,0,Kansas State,58,263,181,55,1
+UTEP,20,143,81,22,5,Louisiana Tech,27,187,256,35,2
+UTEP,42,152,313,58,0,Old Dominion,35,196,161,35,0
+UTEP,34,191,160,50,0,UTSA,0,32,38,29,1
+UTSA,27,121,142,115,1,Houston,7,234,-26,47,6
+UTSA,23,228,121,53,1,Arizona,26,231,223,73,0
+UTSA,13,133,73,74,1,Oklahoma State,43,315,162,45,0
+UTSA,37,272,140,50,2,Florida Atlantic,41,295,114,52,2
+UTSA,9,229,112,35,2,New Mexico,21,87,283,30,0
+UTSA,16,175,143,71,3,Florida International,13,141,118,30,5
+UTSA,20,190,134,85,4,Louisiana Tech,27,157,121,85,1
+UTSA,0,32,38,29,1,UTEP,34,191,160,50,0
+Vanderbilt,7,224,54,66,7,Temple,37,207,144,23,2
+Vanderbilt,3,60,107,53,1,Ole Miss,41,367,180,35,1
+Vanderbilt,34,150,160,77,1,Massachusetts,31,258,88,10,1
+Vanderbilt,34,223,156,75,2,South Carolina,48,237,212,35,1
+Vanderbilt,7,85,54,10,3,Kentucky,17,291,183,55,3
+Vanderbilt,17,18,132,29,1,Georgia,44,202,243,12,1
+Vanderbilt,14,196,44,41,1,Missouri,24,141,244,100,0
+Virginia,20,242,116,20,3,UCLA,28,266,120,87,2
+Virginia,23,171,114,46,3,Louisville,21,203,79,50,4
+Virginia,33,327,192,86,2,BYU,41,187,145,133,0
+Virginia,45,266,254,79,3,Kent State,13,246,34,60,5
+Virginia,24,121,225,65,1,Pittsburgh,19,195,116,75,1
+Virginia,13,325,140,60,1,Duke,20,179,155,30,0
+Virginia,27,284,159,83,2,North Carolina,28,275,99,45,1
+Virginia Tech,35,199,125,107,3,Ohio State,21,219,108,62,3
+Virginia Tech,21,298,91,64,2,East Carolina,28,427,75,114,1
+Virginia Tech,24,297,127,79,3,Georgia Tech,27,125,250,60,1
+Virginia Tech,35,178,308,69,2,Western Michigan,17,212,19,85,2
+Virginia Tech,34,186,171,45,1,North Carolina,17,198,125,62,3
+Virginia Tech,16,265,26,45,1,Pittsburgh,21,121,210,70,2
+Virginia Tech,6,142,120,40,3,Miami (FL),30,92,364,28,0
+Wake Forest,10,97,-3,51,1,Louisiana-Monroe,17,189,163,25,1
+Wake Forest,24,257,-25,103,3,Utah State,36,331,60,65,3
+Wake Forest,24,238,100,30,1,Army,21,18,341,57,2
+Wake Forest,20,122,-22,45,3,Louisville,10,206,215,89,3
+Wake Forest,43,86,40,62,3,Florida State,3,304,171,48,2
+Wake Forest,7,99,71,35,2,Syracuse,30,171,199,55,0
+Wake Forest,17,242,19,49,1,Boston College,23,165,202,54,1
+Washington,17,207,217,36,0,Hawaii,16,162,174,35,0
+Washington,44,219,245,73,1,Illinois,19,279,72,110,3
+Washington,45,154,182,53,0,Georgia State,14,205,68,25,4
+Washington,13,98,81,84,0,Stanford,20,178,187,85,3
+Washington,31,273,111,76,0,California,7,304,64,56,3
+Washington,20,184,133,24,2,Oregon,45,336,218,90,0
+Washington,10,139,151,30,3,Arizona State,24,180,105,20,1
+Washington State,38,532,6,77,2,Rutgers,41,281,215,78,1
+Washington State,13,389,38,72,2,Nevada,24,110,214,90,0
+Washington State,31,436,63,54,2,Oregon,38,329,172,86,0
+Washington State,28,417,78,40,3,Utah,27,165,192,78,1
+Washington State,59,734,78,121,0,California,60,527,62,34,0
+Washington State,17,292,-26,75,1,Stanford,34,284,193,80,1
+Washington State,37,489,54,85,2,Arizona,59,294,157,89,1
+West Virginia,23,365,28,55,0,Alabama,33,250,288,49,1
+West Virginia,40,511,183,40,4,Maryland,37,284,163,71,1
+West Virginia,33,376,137,55,3,Oklahoma,45,209,301,82,1
+West Virginia,33,302,255,45,3,Kansas,14,111,65,117,0
+West Virginia,37,301,249,63,1,Texas Tech,34,348,217,115,1
+West Virginia,41,322,134,138,3,Baylor,27,223,95,215,0
+West Virginia,34,238,210,57,0,Oklahoma State,10,242,194,30,2
+Western Kentucky,59,569,139,66,0,Bowling Green,31,3131,152,96,0
+Western Kentucky,34,297,103,24,3,Illinois,42,456,64,69,3
+Western Kentucky,47,593,125,92,1,Middle Tennessee,50,218,323,62,0
+Western Kentucky,36,387,164,66,1,Navy,27,55,412,25,2
+Western Kentucky,39,319,184,50,0,UAB,42,300,291,55,3
+Western Kentucky,38,335,67,25,2,Florida Atlantic,45,341,278,59,1
+Western Kentucky,66,371,230,40,2,Old Dominion,51,471,172,51,3
+Western Michigan,34,243,213,35,1,Purdue,43,181,226,52,0
+Western Michigan,45,240,243,93,0,Idaho,33,381,45,79,2
+Western Michigan,17,212,19,85,2,Virginia Tech,35,178,308,69,2
+Western Michigan,19,388,62,30,0,Toledo,20,219,234,35,3
+Western Michigan,42,290,208,45,2,Ball State,38,326,145,55,0
+Western Michigan,26,166,195,49,0,Bowling Green,14,139,135,40,2
+Western Michigan,42,344,186,36,3,Ohio,21,284,88,48,2
+Wisconsin,24,50,268,26,2,LSU,28,239,126,50,1
+Wisconsin,68,112,644,55,3,Bowling Green,17,178,93,36,2
+Wisconsin,27,160,294,35,1,South Florida,10,173,72,90,2
+Wisconsin,14,138,284,49,4,Northwestern,20,182,203,20,0
+Wisconsin,52,216,311,20,0,Maryland,7,129,46,45,1
+Wisconsin,38,97,401,53,0,Illinois,28,135,153,50,1
+Wyoming,17,282,51,15,0,Air Force,13,226,151,25,2
+Wyoming,14,284,155,48,3,Oregon,48,293,263,30,0
+Wyoming,20,161,173,36,1,Florida Atlantic,19,108,188,23,3
+Wyoming,14,188,98,43,3,Michigan State,56,195,338,84,0
+Wyoming,28,221,101,40,2,Hawaii,38,281,232,40,3
+Wyoming,20,119,158,72,0,San Jose State,27,322,149,40,2
+Wyoming,31,335,119,53,0,Colorado State,45,411,147,87,0
+Florida State,42,401,173,53,3,Louisville,31,330,158,14,2
+Troy,10,13,141,45,1,Georgia Southern,42,40,421,25,2
+Louisville,31,330,158,14,2,Florida State,42,401,173,53,3
+Georgia Southern,42,40,421,25,2,Troy,10,13,141,45,1
+Cincinnati,38,214,265,35,3,Tulane,14,205,175,51,1
+Tulsa,20,349,62,111,0,Memphis,40,183,243,40,1
+Air Force,23,141,242,5,1,Army,6,47,122,41,1
+Oklahoma,59,241,510,60,3,Iowa State,14,247,87,40,1
+East Carolina,10,217,211,116,5,Temple,20,70,65,65,0
+Duke,51,266,172,20,0,Pittsburgh,48,236,358,61,0
+Northwestern,7,75,105,53,1,Iowa,48,262,221,35,1
+Maryland,20,161,33,87,2,Penn State,19,177,42,64,4
+Wisconsin,37,87,298,56,1,Rutgers,0,63,76,35,1
+Rice,31,230,169,15,0,Florida International,17,159,102,30,2
+UCF,29,284,145,89,4,Connecticut,37,148,179,102,1
+Louisiana-Monroe,16,269,78,20,1,Texas A&M,21,106,137,26,2
+North Carolina,20,252,6,28,2,Miami (FL),47,199,295,45,1
+Boston College,33,110,258,20,0,Virginia Tech,31,345,69,40,1
+Central Michigan,38,223,278,41,2,Eastern Michigan,7,76,21,19,2
+Washington,38,206,236,24,3,Colorado,23,314,181,39,4
+Western Michigan,41,217,282,65,1,Miami (OH),10,149,87,40,2
+Western Kentucky,10,145,152,93,5,Louisiana Tech,59,378,129,15,3
+North Carolina State,24,186,121,80,0,Syracuse,17,307,38,61,3
+TCU,31,166,223,40,2,West Virginia,30,162,195,40,5
+Florida,38,27,418,31,1,Georgia,20,319,141,30,1
+Purdue,14,216,124,51,2,Nebraska,35,118,179,30,3
+Virginia,10,262,22,61,2,Georgia Tech,35,141,268,30,1
+BYU,27,316,128,70,0,Middle Tennessee,7,119,109,12,2
+Indiana,10,24,167,25,2,Michigan,34,220,184,25,1
+Georgia State,0,54,8,10,3,Appalachian State,44,98,469,48,0
+Kansas,14,288,16,60,3,Baylor,60,343,326,54,0
+Texas State,37,143,287,55,0,New Mexico State,29,404,235,76,2
+Kentucky,10,158,102,67,1,Missouri,20,164,156,50,0
+Houston,27,89,217,5,0,South Florida,3,146,76,45,1
+USC,44,400,127,70,1,Washington State,17,410,34,48,3
+Arkansas State,44,244,198,99,1,Idaho,28,206,243,93,8
+South Alabama,9,270,66,76,1,Louisiana-Lafayette,19,216,196,39,1
+New Mexico,31,5,301,30,1,UNLV,28,271,214,69,3
+Auburn,35,254,253,145,1,Ole Miss,31,341,151,48,2
+Colorado State,38,290,113,17,2,San Jose State,31,308,185,5,3
+UAB,31,184,239,90,0,Florida Atlantic,28,177,145,30,2
+Old Dominion,28,291,45,48,1,Vanderbilt,42,281,243,38,2
+Arkansas,10,238,163,40,1,Mississippi State,17,331,128,45,3
+Stanford,16,296,132,53,2,Oregon,45,258,267,60,1
+Tennessee,45,301,344,31,1,South Carolina,42,377,248,51,1
+Texas,34,228,241,50,2,Texas Tech,13,225,156,70,2
+Oklahoma State,14,148,113,54,3,Kansas State,48,287,134,15,1
+Notre Dame,49,315,218,5,1,Navy,39,118,336,25,1
+Illinois,14,137,106,50,4,Ohio State,55,249,296,56,1
+Southern Miss,14,309,93,95,5,UTEP,35,127,107,20,1
+Arizona,7,175,80,40,1,UCLA,17,189,271,118,1
+California,45,277,269,71,0,Oregon State,31,320,148,90,1
+San Diego State,14,189,135,55,3,Nevada,30,109,229,44,1
+Wyoming,45,320,374,64,1,Fresno State,17,149,167,20,2
+Utah,16,57,184,45,0,Arizona State,19,205,239,55,2
+Utah State,35,230,235,96,0,Hawaii,14,356,98,100,3
+Tulane,14,205,175,51,1,Cincinnati,38,214,265,35,3
+Memphis,40,183,243,40,1,Tulsa,20,349,62,111,0
+Army,6,47,122,41,1,Air Force,23,141,242,5,1
+Iowa State,14,247,87,40,1,Oklahoma,59,241,510,60,3
+Temple,20,70,65,65,0,East Carolina,10,217,211,116,5
+Pittsburgh,48,236,358,61,0,Duke,51,266,172,20,0
+Iowa,48,262,221,35,1,Northwestern,7,75,105,53,1
+Penn State,19,177,42,64,4,Maryland,20,161,33,87,2
+Rutgers,0,63,76,35,1,Wisconsin,37,87,298,56,1
+Florida International,17,159,102,30,2,Rice,31,230,169,15,0
+Connecticut,37,148,179,102,1,UCF,29,284,145,89,4
+Texas A&M,21,106,137,26,2,Louisiana-Monroe,16,269,78,20,1
+Miami (FL),47,199,295,45,1,North Carolina,20,252,6,28,2
+Virginia Tech,31,345,69,40,1,Boston College,33,110,258,20,0
+Eastern Michigan,7,76,21,19,2,Central Michigan,38,223,278,41,2
+Colorado,23,314,181,39,4,Washington,38,206,236,24,3
+Miami (OH),10,149,87,40,2,Western Michigan,41,217,282,65,1
+Louisiana Tech,59,378,129,15,3,Western Kentucky,10,145,152,93,5
+Syracuse,17,307,38,61,3,North Carolina State,24,186,121,80,0
+West Virginia,30,162,195,40,5,TCU,31,166,223,40,2
+Georgia,20,319,141,30,1,Florida,38,27,418,31,1
+Nebraska,35,118,179,30,3,Purdue,14,216,124,51,2
+Georgia Tech,35,141,268,30,1,Virginia,10,262,22,61,2
+Middle Tennessee,7,119,109,12,2,BYU,27,316,128,70,0
+Michigan,34,220,184,25,1,Indiana,10,24,167,25,2
+Appalachian State,44,98,469,48,0,Georgia State,0,54,8,10,3
+Baylor,60,343,326,54,0,Kansas,14,288,16,60,3
+New Mexico State,29,404,235,76,2,Texas State,37,143,287,55,0
+Missouri,20,164,156,50,0,Kentucky,10,158,102,67,1
+South Florida,3,146,76,45,1,Houston,27,89,217,5,0
+Washington State,17,410,34,48,3,USC,44,400,127,70,1
+Idaho,28,206,243,93,8,Arkansas State,44,244,198,99,1
+Louisiana-Lafayette,19,216,196,39,1,South Alabama,9,270,66,76,1
+UNLV,28,271,214,69,3,New Mexico,31,5,301,30,1
+Ole Miss,31,341,151,48,2,Auburn,35,254,253,145,1
+San Jose State,31,308,185,5,3,Colorado State,38,290,113,17,2
+Florida Atlantic,28,177,145,30,2,UAB,31,184,239,90,0
+Vanderbilt,42,281,243,38,2,Old Dominion,28,291,45,48,1
+Mississippi State,17,331,128,45,3,Arkansas,10,238,163,40,1
+Oregon,45,258,267,60,1,Stanford,16,296,132,53,2
+South Carolina,42,377,248,51,1,Tennessee,45,301,344,31,1
+Texas Tech,13,225,156,70,2,Texas,34,228,241,50,2
+Kansas State,48,287,134,15,1,Oklahoma State,14,148,113,54,3
+Navy,39,118,336,25,1,Notre Dame,49,315,218,5,1
+Ohio State,55,249,296,56,1,Illinois,14,137,106,50,4
+UTEP,35,127,107,20,1,Southern Miss,14,309,93,95,5
+UCLA,17,189,271,118,1,Arizona,7,175,80,40,1
+Oregon State,31,320,148,90,1,California,45,277,269,71,0
+Nevada,30,109,229,44,1,San Diego State,14,189,135,55,3
+Fresno State,17,149,167,20,2,Wyoming,45,320,374,64,1
+Arizona State,19,205,239,55,2,Utah,16,57,184,45,0
+Hawaii,14,356,98,100,3,Utah State,35,230,235,96,0
+Bowling Green,27,170,219,61,1,Akron,10,304,94,55,5
+Toledo,30,201,221,73,1,Kent State,20,163,171,74,3
+Akron,10,304,94,55,5,Bowling Green,27,170,219,61,1
+Kent State,20,163,171,74,3,Toledo,30,201,221,73,1
+Ohio,37,156,233,5,2,Buffalo,14,106,28,21,4
+Northern Illinois,35,149,236,85,2,Ball State,21,174,133,24,5
+Buffalo,14,106,28,21,4,Ohio,37,156,233,5,2
+Ball State,21,174,133,24,5,Northern Illinois,35,149,236,85,2
+Clemson,34,282,145,75,2,Wake Forest,20,112,7,29,0
+Wake Forest,20,112,7,29,0,Clemson,34,282,145,75,2
+ Memphis,16,230,82,51,0, Temple,13,140,158,25,1
+ Utah State,20,150,206,75,0, Wyoming,3,212,151,95,2
+ Louisiana Tech,40,200,228,15,1, UAB,24,198,128,85,1
+ UTSA,7,153,104,70,0, Rice,17,213,207,76,1
+ SMU,28,212,252,58,2, Tulsa,38,286,215,40,0
+ Penn State,13,168,162,55,2, Indiana,7,68,153,82,2
+ Iowa,14,121,84,15,1, Minnesota,51,138,289,17,0
+ Baylor,48,396,148,40,0, Oklahoma,14,148,171,59,1
+ Wisconsin,34,225,264,40,1, Purdue,16,204,26,15,0
+ Georgia,63,254,305,33,0, Kentucky,31,139,214,25,1
+ Presbyterian,0,67,89,25,1, Mississippi,48,238,402,40,1
+ Duke,27,161,98,40,1, Syracuse,10,105,119,55,2
+ Georgia Tech,56,70,479,62,0, North Carolina State,23,213,155,52,2
+ South Alabama,10,90,111,25,3, Arkansas State,45,186,214,77,0
+ Georgia State,21,293,101,25,2, Troy,45,116,324,23,0
+ Louisiana-Monroe,29,244,55,78,0, Appalachian State,31,276,104,50,1
+ Texas A&M,41,277,176,47,1, Auburn,38,219,363,65,0
+ Notre Dame,31,446,41,43,4, Arizona State,55,224,188,19,1
+ Connecticut,21,190,163,31,2, Army,35,38,327,30,0
+ Tulane,31,237,124,64,1, Houston,24,342,90,51,3
+ Florida International,35,132,256,59,1, Old Dominion,38,315,210,10,0
+ West Virginia,16,248,200,57,1, Texas,33,124,227,60,1
+ Michigan,10,109,147,50,2, Northwestern,9,273,-9,10,2
+ Iowa State,14,275,98,26,1, Kansas,34,286,228,32,0
+ UTEP,27,158,236,37,1, Western Kentucky,35,324,35,24,0
+ Air Force,48,156,386,30,0, UNLV,21,306,33,30,0
+ Washington State,39,471,35,51,0, Oregon State,32,419,37,100,0
+ Tennessee-Martin,16,216,151,25,0, Mississippi State,45,266,254,20,0
+ Georgia Southern,28,41,227,74,0, Texas State,25,302,137,41,2
+ Idaho,21,186,193,30,0, San Diego State,35,249,156,51,0
+ Virginia,20,220,37,49,1, Florida State,34,261,115,46,2
+ Florida Atlantic,10,102,95,55,1, North Texas,31,107,235,35,1
+ Marshall,63,186,335,80,0, Southern Mississippi,17,114,186,68,1
+ Boise State,60,367,291,24,0, New Mexico,49,122,505,50,0
+ Hawai'i,22,211,141,20,2, Colorado State,49,287,293,46,0
+ UCLA,44,302,174,37,0, Washington,30,155,211,65,1
+ Louisville,38,257,166,87,0, Boston College,19,166,166,45,4
+ Kansas State,20,376,34,68,1, TCU,41,219,334,35,0
+ Florida,34,215,214,82,0, Vanderbilt,10,225,83,49,2
+ Alabama,20,209,106,29,0, LSU,13,76,183,20,1
+ Louisiana-Lafayette,44,158,244,5,0, New Mexico State,16,204,103,5,3
+ Ohio State,49,300,268,50,0, Michigan State,37,358,178,105,0
+ Colorado,20,259,94,103,2, Arizona,38,211,288,75,0
+ Oregon,51,239,269,73,0, Utah,27,320,120,31,2
+ San Jose State,24,350,86,30,2, Fresno State,38,207,232,20,1
+ Temple,13,140,158,25,1, Memphis,16,230,82,51,0
+ Wyoming,3,212,151,95,2, Utah State,20,150,206,75,0
+ UAB,24,198,128,85,1, Louisiana Tech,40,200,228,15,1
+ Rice,17,213,207,76,1, UTSA,7,153,104,70,0
+ Tulsa,38,286,215,40,0, SMU,28,212,252,58,2
+ Indiana,7,68,153,82,2, Penn State,13,168,162,55,2
+ Minnesota,51,138,289,17,0, Iowa,14,121,84,15,1
+ Oklahoma,14,148,171,59,1, Baylor,48,396,148,40,0
+ Purdue,16,204,26,15,0, Wisconsin,34,225,264,40,1
+ Kentucky,31,139,214,25,1, Georgia,63,254,305,33,0
+ Mississippi,48,238,402,40,1, Presbyterian,0,67,89,25,1
+ Syracuse,10,105,119,55,2, Duke,27,161,98,40,1
+ North Carolina State,23,213,155,52,2, Georgia Tech,56,70,479,62,0
+ Arkansas State,45,186,214,77,0, South Alabama,10,90,111,25,3
+ Troy,45,116,324,23,0, Georgia State,21,293,101,25,2
+ Appalachian State,31,276,104,50,1, Louisiana-Monroe,29,244,55,78,0
+ Auburn,38,219,363,65,0, Texas A&M,41,277,176,47,1
+ Arizona State,55,224,188,19,1, Notre Dame,31,446,41,43,5
+ Army,35,38,327,30,0, Connecticut,21,190,163,31,2
+ Houston,24,342,90,51,3, Tulane,31,237,124,64,1
+ Old Dominion,38,315,210,10,0, Florida International,35,132,256,59,1
+ Texas,33,124,227,60,1, West Virginia,16,248,200,57,1
+ Northwestern,9,273,-9,10,2, Michigan,10,109,147,50,2
+ Kansas,34,286,228,32,0, Iowa State,14,275,98,26,1
+ Western Kentucky,35,324,35,24,0, UTEP,27,158,236,37,1
+ UNLV,21,306,33,30,0, Air Force,48,156,386,30,0
+ Oregon State,32,419,37,100,0, Washington State,39,471,35,51,0
+ Mississippi State,45,266,254,20,0, Tennessee-Martin,16,216,151,25,0
+ Texas State,25,302,137,41,2, Georgia Southern,28,41,227,74,0
+ San Diego State,35,249,156,51,0, Idaho,21,186,193,30,0
+ Florida State,34,261,115,46,2, Virginia,20,220,37,49,1
+ North Texas,31,107,235,35,1, Florida Atlantic,10,102,95,55,1
+ Southern Mississippi,17,114,186,68,1, Marshall,63,186,335,80,0
+ New Mexico,49,122,505,50,0, Boise State,60,367,291,24,0
+ Colorado State,49,287,293,46,0, Hawai'i,22,211,141,20,2
+ Washington,30,155,211,65,1, UCLA,44,302,174,37,0
+ Boston College,19,166,166,45,4, Louisville,38,257,166,87,0
+ TCU,41,219,334,35,0, Kansas State,20,376,34,68,1
+ Vanderbilt,10,225,83,49,2, Florida,34,215,214,82,0
+ LSU,13,76,183,20,1, Alabama,20,209,106,29,0
+ New Mexico State,16,204,103,5,3, Louisiana-Lafayette,44,158,244,5,0
+ Michigan State,37,358,178,105,0, Ohio State,49,300,268,50,0
+ Arizona,38,211,288,75,0, Colorado,20,259,94,103,2
+ Utah,27,320,120,31,2, Oregon,51,239,269,73,0
+ Fresno State,38,207,232,20,1, San Jose State,24,350,86,30,2

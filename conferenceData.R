@@ -1,6 +1,7 @@
-records <- read.csv(file = 'C:\\Users\\mb24244\\Documents\\football anaylsis\\recordsWithFCS.csv', sep=',', header=T)
-schedules <- read.csv(file = 'C:\\Users\\mb24244\\Documents\\football anaylsis\\games.csv', sep=',', header=T)
-conferences <-  read.csv(file = 'C:\\Users\\mb24244\\Documents\\football anaylsis\\conferenceWithFCS.csv', sep=',', header=T)
+Conference.Records <- function(){
+  records <- read.csv(file = 'data\\records.csv', sep=',', header=T)
+schedules <- read.csv(file = 'data\\games.csv', sep=',', header=T)
+conferences <-  read.csv(file = 'data\\conferenceWithFCS.csv', sep=',', header=T)
 
 conferenceRecords <- merge(conferences, records, by="TEAM")
 
@@ -19,7 +20,7 @@ minPercent <- min(conferenceRecordCalculationTable$percent.w)
 
 rangePercent <- (conferenceRecordCalculationTable$percent.w - minPercent) / (maxPercent - minPercent)
 
-conferenceOffset <- 0.975 + 0.075*rangePercent
+conferenceOffset <- 0.975 + 0.05*rangePercent
 
 conferenceRecordCalculationTable <- cbind(conferenceRecordCalculationTable,conferenceOffset)
 
@@ -31,3 +32,5 @@ FCS.Row$conferenceOffset <-  0.75
 conferenceRecordTable <- rbind(conferenceRecordCalculationTable, FCS.Row[1,])
 
 conferenceRecords$ConferenceOffset = conferenceRecordTable[match(conferenceRecords$Conference, conferenceRecordTable$Conference),"conferenceOffset"] 
+
+return(conferenceRecords)}
